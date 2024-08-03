@@ -92,7 +92,7 @@ export const News = () => {
 
     };
     return (
-        <div id='news' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-10 px-5 md:px-10 shadow-[0_30px_60px_0px_rgba(32,56,85,0.15)]'>
+        <div id='news' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-10 px-5 md:px-10 '>
             <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
                 <div>In The</div>
                 <div className=" text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
