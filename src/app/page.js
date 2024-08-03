@@ -1,7 +1,9 @@
 import Awards from "@/components/Awards";
 import { BoardofAdvisor } from "@/components/BoardofAdvisor";
+import CareerProspect from "@/components/CareerProspect";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import HMfaq from "@/components/HMfaq";
 import HMStudentTestimonials from "@/components/HMStudentTestimonials";
 import InfiniteCall from "@/components/InfiniteCall";
 import { News } from "@/components/News";
@@ -19,6 +21,9 @@ export default function Home() {
       </div>
       <div className="flex w-full  bg-[#fff] ">
         <StudentTetimonials />
+      </div>
+      <div className="flex w-full  bg-[#fff] ">
+        <CareerProspect />
       </div>
       <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
         <Awards />
@@ -61,6 +66,9 @@ export default function Home() {
             <HMStudentTestimonials />
           </div>
         </div>
+      </div>
+      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+        <HMfaq />
       </div>
 
       <Footer />
