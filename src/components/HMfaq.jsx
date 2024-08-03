@@ -44,7 +44,7 @@ export default function HMfaq() {
             <div className=" flex items-start justify-center gap-x-5 md:gap-x-10">
                 <div className="w-auto flex justify-center">
                     <div className="flex flex-col items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
-                        <div><span className="text-[#E87D1A]">F</span>AQ'S</div>
+                        <div><span className="text-[#E87D1A]">F</span>AQ&apos;S</div>
                         
                             <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="149" height="9" viewBox="0 0 149 9" fill="none">
