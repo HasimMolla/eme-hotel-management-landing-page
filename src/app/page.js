@@ -4,6 +4,7 @@ import CareerProspect from "@/components/CareerProspect";
 import Featured from "@/components/Featured";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import HMCourses from "@/components/HMCourses";
 import HMfaq from "@/components/HMfaq";
 import HMStudentTestimonials from "@/components/HMStudentTestimonials";
 import InfiniteCall from "@/components/InfiniteCall";
@@ -21,6 +22,9 @@ export default function Home() {
 
       <div className="w-full">
         <InfiniteCall />
+      </div>
+      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+        <HMCourses/>
       </div>
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
         <Featured />
