@@ -1,14 +1,17 @@
 import Awards from "@/components/Awards";
 import { BoardofAdvisor } from "@/components/BoardofAdvisor";
 import CareerProspect from "@/components/CareerProspect";
+import Featured from "@/components/Featured";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HMfaq from "@/components/HMfaq";
 import HMStudentTestimonials from "@/components/HMStudentTestimonials";
 import InfiniteCall from "@/components/InfiniteCall";
 import { News } from "@/components/News";
+import NewsChannel from "@/components/NewsChannel";
 import { StudentGallery } from "@/components/StudentGallery";
 import { StudentTetimonials } from "@/components/StudentTestimonials";
+import WhyEme from "@/components/WhyEme";
 
 
 export default function Home() {
@@ -18,6 +21,15 @@ export default function Home() {
 
       <div className="w-full">
         <InfiniteCall />
+      </div>
+      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+        <Featured />
+      </div>
+      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+        <NewsChannel />
+      </div>
+      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+        <WhyEme />
       </div>
       <div className="flex w-full  bg-[#fff] ">
         <StudentTetimonials />
