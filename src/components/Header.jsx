@@ -100,7 +100,7 @@ export default function Header() {
                         duration={1000}
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}
                         onClick={() => setIsOpen(false)}>
-                        Why EME
+                        Home
                     </Link>
 
                     <Link to="testimonials"
@@ -110,7 +110,7 @@ export default function Header() {
                         duration={2000}
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}
                         onClick={() => setIsOpen(false)}>
-                        Testimonials
+                        About
                     </Link>
 
                     <Link to="news"
@@ -120,7 +120,7 @@ export default function Header() {
                         duration={1000}
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}
                         onClick={() => setIsOpen(false)}>
-                        News
+                        Awards
                     </Link>
 
 
@@ -131,7 +131,7 @@ export default function Header() {
                         duration={1000}
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}
                         onClick={() => setIsOpen(false)}>
-                        Gallery
+                        Contact Us
                     </Link>
 
                     <Link to="podcast"
@@ -141,7 +141,7 @@ export default function Header() {
                         duration={1000}
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}
                         onClick={() => setIsOpen(false)}>
-                        EdTalk
+                        Testimonials
                     </Link>
 
 

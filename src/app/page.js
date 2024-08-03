@@ -4,6 +4,7 @@ import CareerProspect from "@/components/CareerProspect";
 import Featured from "@/components/Featured";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
 import HMCourses from "@/components/HMCourses";
 import HMfaq from "@/components/HMfaq";
 import HMStudentTestimonials from "@/components/HMStudentTestimonials";
@@ -22,8 +23,12 @@ export default function Home() {
     <main className="flex flex-col justify-start items-center w-full min-h-screen bg-[#CAE5FF]">
       <Header />
 
-      <div className="w-full">
+      <div className="w-full ">
         <InfiniteCall />
+      </div>
+
+      <div className="w-full bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100%">
+        <Hero />
       </div>
       <div className="w-full">
         <StudentWorkingCountry />
