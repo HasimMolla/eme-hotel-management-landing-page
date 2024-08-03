@@ -13,6 +13,7 @@ import NewsChannel from "@/components/NewsChannel";
 import { StudentGallery } from "@/components/StudentGallery";
 import { StudentTetimonials } from "@/components/StudentTestimonials";
 import StudentWorking from "@/components/StudentWorking";
+import StudentWorkingCountry from "@/components/StudentWorkingCountry";
 import WhyEme from "@/components/WhyEme";
 
 
@@ -23,6 +24,9 @@ export default function Home() {
 
       <div className="w-full">
         <InfiniteCall />
+      </div>
+      <div className="w-full">
+        <StudentWorkingCountry />
       </div>
       <div className="w-full bg-[#CAE5FF]">
         <StudentWorking />

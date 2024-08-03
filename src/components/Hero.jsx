@@ -1,4 +1,4 @@
-import React from 'react'
+import hotelChef from '../../public/assets/images/hotelChef.png'
 
 function Hero() {
   return (
