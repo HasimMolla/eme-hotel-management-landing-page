@@ -12,6 +12,7 @@ import { News } from "@/components/News";
 import NewsChannel from "@/components/NewsChannel";
 import { StudentGallery } from "@/components/StudentGallery";
 import { StudentTetimonials } from "@/components/StudentTestimonials";
+import StudentWorking from "@/components/StudentWorking";
 import WhyEme from "@/components/WhyEme";
 
 
@@ -23,8 +24,11 @@ export default function Home() {
       <div className="w-full">
         <InfiniteCall />
       </div>
+      <div className="w-full bg-[#CAE5FF]">
+        <StudentWorking />
+      </div>
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
-        <HMCourses/>
+        <HMCourses />
       </div>
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
         <Featured />
