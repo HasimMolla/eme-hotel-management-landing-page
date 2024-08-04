@@ -27,7 +27,7 @@ export default function Home() {
         <InfiniteCall />
       </div>
 
-      <div className="w-full bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100%">
+      <div className="w-full bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100%">
         <Hero />
       </div>
       <div className="w-full">

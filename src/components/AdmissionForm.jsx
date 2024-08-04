@@ -82,7 +82,7 @@ export default function AdmissionForm(_this) {
             });
     };
     return (
-        <div className=" w-[300px] h-[400px] lg:w-[330px] lg:min-h-[420px] px-[24px] py-[20px] lg:py-[40px] flex flex-col border-2 border-[#00A2E7] rounded-2xl justify-start items-center gap-[20px]">
+        <div className=" w-[300px] h-[400px] lg:max-w-[300px] lg:max-h-[400px] px-[24px] py-[20px] lg:py-[40px] flex flex-col border-double border-4 border-[#00A2E7]  rounded-2xl justify-start items-center gap-[20px]">
             <div className="w-full flex flex-col justify-start items-center gap-[5px]">
                 <h1 className="text-[24px] font-[500] leading-5 text-white lg:text-[#000] pb-2">Admission Open</h1>
                 {/* <p className="text-[14px] font-[500] leading-5 text-[#000]"></p> */}
@@ -104,7 +104,7 @@ export default function AdmissionForm(_this) {
                                     name: e.target.value,
                                 }));
                             }}
-                            className="rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
+                            className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
                         />
                         <input
                             type="text"
@@ -116,7 +116,7 @@ export default function AdmissionForm(_this) {
                                     email: e.target.value,
                                 }));
                             }}
-                            className="rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
+                            className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
                         />
                         <input
                             type="text"
@@ -128,7 +128,7 @@ export default function AdmissionForm(_this) {
                                     mobile: e.target.value,
                                 }));
                             }}
-                            className="rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
+                            className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
                         />
 
                         <Select
@@ -156,7 +156,7 @@ export default function AdmissionForm(_this) {
 
                         <button
                             type="submit"
-                            className="w-full text-[#fff] text-[15px] font-[700] bg-[#00A2E7] hover:bg-[#00A2E7]/90 transition-colors rounded-md border border-[#FFCD1F] px-[40px] py-[12px]"
+                            className="w-full text-[#fff] text-[15px] font-[700] bg-[#00A2E7] hover:bg-[#00A2E7]/90 transition-colors rounded-md border border-[#FFCD1F] px-[40px] py-2"
                         >
                             Apply Now
                         </button>
