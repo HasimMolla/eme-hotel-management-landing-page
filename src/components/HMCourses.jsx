@@ -281,7 +281,7 @@ export default function HMCourses() {
                 <div className='w-full h-full grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-[30px] py-[40px] '>
                     {
                         HMCourses.map((course) => (
-                            <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white '>
+                            <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white shadow-md'>
                                 <Image className='w-full h-[170px] object-cover object-right-top'
                                     width={200}
                                     height={200}

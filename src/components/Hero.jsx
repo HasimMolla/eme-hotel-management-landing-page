@@ -41,6 +41,7 @@ function Hero() {
             </div>
           </div>
         </div>
+        
         <div className='w-full border flex flex-col gap-y-2'>
           <div className=' text-black text-sm  font-semibold flex items-center gap-x-4'>
             <div>
@@ -60,7 +61,8 @@ function Hero() {
             <span className='text-[#00A2E7]'>✦</span> Earning Opportunity Upto 12k During Training Period
           </div>
         </div>
-        <div className='w-full  flex flex-col items-start gap-y-2'>
+
+        <div className='w-full  flex flex-col items-start gap-y-5'>
           <div className='w-full  flex items-center gap-x-2'>
             <div>
               <Image className='w-8 h-8 '
