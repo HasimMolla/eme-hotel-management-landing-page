@@ -33,7 +33,7 @@ export default function Home() {
       <div className="w-full">
         <StudentWorkingCountry />
       </div>
-      <div className="w-full bg-[#CAE5FF]">
+      <div className="w-full bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100%">
         <StudentWorking />
       </div>
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">

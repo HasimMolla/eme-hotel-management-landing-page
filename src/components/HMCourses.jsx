@@ -34,10 +34,6 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Certificate',
             id: 1,
-            student: '100% Job Assistance ',
-            job: '2000+ Successful students',
-            duration: '6 Months',
-            time: 'Incl. 1 mo internship',
             assistance: "‘0’cost EMI available",
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
@@ -47,11 +43,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Diploma (1 Year) ',
             id: 2,
-            student: '100% Job Assistance ',
-            job: '2000+ Successful students',
-            duration: '1 Year',
-            time: 'Incl. 1 mo internship',
-            assistance: "‘0’cost EMI available",
+            assistance: "Latest Study Materials",
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -60,11 +52,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Diploma (2 Years)',
             id: 3,
-            student: '100% Job Assistance ',
-            job: '2000+ Successful students',
-            duration: '2 Year',
-            time: 'Incl. 1 mo internship',
-            assistance: "‘0’cost EMI available",
+            assistance: "Continuous Evaluation",
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -73,11 +61,7 @@ export default function HMCourses() {
         {
             name: 'BSc Hotel and Hospitality Management ',
             id: 4,
-            student: '100% Job Assistance ',
-            job: '2000+ Successful students',
-            duration: '4 Years',
-            time: 'Incl. 1 mo internship',
-            assistance: "‘0’cost EMI available",
+            assistance: "100+ Hiring Partners",
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -86,11 +70,7 @@ export default function HMCourses() {
         {
             name: 'MSc Hotel and Hospitality Management ',
             id: 5,
-            student: '100% Job Assistance ',
-            job: '2000+ Successful students',
-            duration: '2 Years',
-            time: 'Incl. 1 mo internship',
-            assistance: "‘0’cost EMI available",
+            assistance: "Latest Study Materials",
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -282,15 +262,21 @@ export default function HMCourses() {
                     {
                         HMCourses.map((course) => (
                             <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white shadow-md'>
-                                <Image className='w-full h-[170px] object-cover object-right-top'
-                                    width={200}
-                                    height={200}
-                                    src={course.src}
-                                    alt='course Image'
+                                <div className='relative'>
+                                    <Image className='w-full h-[170px] object-cover object-right-top'
+                                        width={200}
+                                        height={200}
+                                        src={course.src}
+                                        alt='course Image'
 
-                                />
+                                    />
 
-                                <div className='w-full px-3 py-4 flex flex-col gap-y-4'>
+                                    <div className='absolute right-0  -bottom-5 bg-[#FAFAFA] rounded-2xl px-3 py-2 text-xs text-center leading-4'>
+                                       {course.assistance}
+                                    </div>
+                                </div>
+
+                                <div className='w-full px-3 py-4 flex flex-col gap-y-4 mt-4 '>
                                     <div className='text-[#232D63] font-bold text-base'>
                                         {course.name}
                                     </div>
@@ -330,7 +316,7 @@ export default function HMCourses() {
                                         </div>
                                     </div>
 
-                                    <div className='w-28 capitalize text-sm bg-[#0057E2] rounded-sm px-5 py-2 text-white'>
+                                    <div className='w-28 capitalize text-sm bg-[#0057E2] rounded-sm px-5 py-2 text-white cursor-pointer' onClick={() => { _this?.setIsModalOpen(true) }}>
                                         enroll now
                                     </div>
                                 </div>
