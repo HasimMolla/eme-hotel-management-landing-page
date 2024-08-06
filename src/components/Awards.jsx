@@ -19,7 +19,7 @@ function Awards() {
                           </svg>
                       </span>
                   </div>
-                  <div className="text-[#232D63] text-sm font-bold text-center">
+                  <div className="text-[#232D63] text-base font-bold text-center">
                       Best <span className="text-[#2251FF]">Placement Institute</span> of the year - 2024
                   </div>
               </div>

@@ -13,8 +13,8 @@ function Hero() {
     email_sender,
   };
   return (
-    <div className="w-full min-h-[80vh] max-w-[1380px] mx-auto flex items-center justify-between  gap-x-5 py-5 md:py-5  px-[20px] md:px-24 ">
-      <div className='w-[30%] h-full '>
+    <div className="w-full max-h-[100vh] max-w-[1380px] mx-auto flex items-center justify-between  gap-x-5 pt-5 md:pt-10  px-[20px] md:px-24 ">
+      <div className='w-[30%] h-full flex items-end '>
         <Image className='w-full min-h-[420px]  object-cover  object-center  drop-shadow-2xl'
           width={500}
           height={500}
@@ -22,13 +22,13 @@ function Hero() {
           alt='hotel chef'
         />
       </div>
-      <div className='w-[40%] flex flex-col gap-y-10 items-center justify-center'>
-        <div>
-          <div className=' text-[#042A76] lg:leading-10 lg:text-3xl  font-bold text-nowrap'>
+      <div className='w-[40%] flex flex-col gap-y-10 items-center justify-center '>
+        <div className='w-full'>
+          <div className='w-full text-[#042A76] lg:leading-10 lg:text-3xl  font-bold text-nowrap text-center '>
             <span className="text-[#E87D1A]">E</span>astern India’s <span className="text-[#E87D1A]">Top 10</span> Ranked
 
           </div>
-          <div className=' text-[#00A2E7] lg:leading-10 lg:text-3xl  font-bold flex items-start gap-x-2'>
+          <div className='w-full text-[#00A2E7] lg:leading-10 lg:text-3xl  font-bold flex justify-center gap-x-2 text-center '>
             <div>Hotel Management
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="7" viewBox="0 0 273 7" fill="none">
@@ -42,8 +42,8 @@ function Hero() {
           </div>
         </div>
         
-        <div className='w-full flex flex-col gap-y-3'>
-          <div className='w-full  flex  items-center gap-x-4'>
+        <div className='w-full flex flex-col gap-y-3 justify-center items-start px-6'>
+          <div className='w-full  flex justify-start   items-center gap-x-4'>
             <div className=' text-black text-sm  font-semibold flex flex-col  gap-y-3'>
               <div>
                 <span className='text-[#00A2E7]'>✦</span> Expert Certified Trainers
@@ -65,7 +65,7 @@ function Hero() {
             </div>
 
           </div>
-          <div className='w-full text-black text-sm  font-semibold '>
+          <div className=' w-full text-black text-sm flex gap-x-1  justify-start font-semibold '>
             <span className='text-[#00A2E7]'>✦</span> Earning Opportunity Upto 12k During Training Period
           </div>
         </div>
