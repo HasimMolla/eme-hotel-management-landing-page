@@ -9,13 +9,15 @@ import { Autoplay, Zoom, Navigation } from 'swiper/modules';
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import republic from '../../public/assets/images/republic.svg'
-import abp from '../../public/assets/images/abp.png'
+import abp from '../../public/assets/images/abpnews.png'
 import kolomT from '../../public/assets/images/kolomT.png'
 import Dailyhunt from '../../public/assets/images/Dailyhunt.png'
 import newsOne from '../../public/assets/images/newsOne.webp'
 import newsTwo from '../../public/assets/images/newsTwo.webp'
 import newsThree from '../../public/assets/images/newsThree.webp'
 import newsFour from '../../public/assets/images/newsFour.webp'
+import TAASIRHOWRAH from '../../public/assets/images/TAASIRHOWRAH.jpg'
+import taasirNews from '../../public/assets/images/taasirNews.png'
 
 
 export const News = () => {
@@ -50,6 +52,12 @@ export const News = () => {
             channel: Dailyhunt,
             link: 'http://dhunt.in/SHbMS'
         },
+        {
+            id: 6,
+            src: TAASIRHOWRAH,
+            channel: taasirNews,
+            link: 'http://dhunt.in/SHbMS'
+        },
     ]
     const breakpoints = {
 
@@ -82,11 +90,11 @@ export const News = () => {
 
         1024: {
             slidesPerView: 3,
-            spaceBetween: 40
+            spaceBetween: 20
         },
         1200: {
             slidesPerView: 4,
-            spaceBetween: 40
+            spaceBetween: 20
         }
 
 
@@ -105,8 +113,8 @@ export const News = () => {
                 </div>
             </div>
             <div className='w-full flex  justify-center items-center   gap-x-5 pt-10 md:pt-14'>
-                <button className="swiper-button-next-custom bg-[#2251FF] p-4  flex justify-center items-center  rounded-full cursor-pointer">
-                    <FaArrowLeftLong className='text-white' />
+                <button className="swiper-button-next-custom border border-[#2251FF] rounded-full flex justify-center items-center p-4 cursor-pointer group hover:bg-[#2251FF]">
+                    <FaArrowLeftLong className='text-[#2251FF] group-hover:text-white' />
                 </button>
                 <Swiper
 
@@ -132,16 +140,16 @@ export const News = () => {
 
                             <SwiperSlide key={data.id} className='swiper-zoom-container'>
 
-                                <a className="flex flex-col items-center justify-start w-[280px] min-h-[280px] lg:w-[270px] lg:h-[350px] rounded-lg  overflow-hidden p-3 bg-white border relative group " href={data.link} target='_blank'>
+                                <a className="flex flex-col items-center justify-start  w-[280px] h-[280px] lg:w-[270px] lg:h-[320px] rounded-lg   p-3 bg-white border  shadow-sm " href={data.link} target='_blank'>
                                     <Image
-                                        className="w-full  h-[300px] object-cover object-center  "
+                                        className="w-full  h-[250px] object-cover object-center  "
                                         width={500}
                                         height={500}
                                         src={data?.src}
                                         alt="student Img" />
-                                    <div className=' flex justify-center items-center  w-full h-[80px]  '>
+                                    <div className=' flex justify-center items-center  w-full h-10  '>
                                         <Image
-                                            className="w-[120px]  object-cover object-center ml-[10px]  "
+                                            className="w-[120px]  object-contain object-center   "
                                             width={500}
                                             height={500}
                                             src={data?.channel}
@@ -153,8 +161,8 @@ export const News = () => {
                     }
 
                 </Swiper>
-                <button className="swiper-button-prev-custom bg-[#2251FF] rounded-full flex justify-center items-center p-4 cursor-pointer">
-                    <FaArrowRightLong className='text-white' />
+                <button className="swiper-button-prev-custom border border-[#2251FF] rounded-full flex justify-center items-center p-4 cursor-pointer group hover:bg-[#2251FF]">
+                    <FaArrowRightLong className='text-[#2251FF] group-hover:text-white' />
                 </button>
                 
 
