@@ -6,8 +6,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/zoom';
 import Image from "next/image";
 import { Autoplay, Zoom, Navigation } from 'swiper/modules';
-import { FaArrowLeftLong } from "react-icons/fa6";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { ChevronLeft } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import republic from '../../public/assets/images/republic.svg'
 import abp from '../../public/assets/images/abpnews.png'
 import kolomT from '../../public/assets/images/kolomT.png'
@@ -113,8 +113,8 @@ export const News = () => {
                 </div>
             </div>
             <div className='w-full flex  justify-center items-center   gap-x-5 pt-10 md:pt-14'>
-                <button className="swiper-button-next-custom border border-[#2251FF] rounded-full flex justify-center items-center p-4 cursor-pointer group hover:bg-[#2251FF]">
-                    <FaArrowLeftLong className='text-[#2251FF] group-hover:text-white' />
+                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg">
+                    <ChevronLeft className='text-[#2251FF] ' />
                 </button>
                 <Swiper
 
@@ -161,8 +161,8 @@ export const News = () => {
                     }
 
                 </Swiper>
-                <button className="swiper-button-prev-custom border border-[#2251FF] rounded-full flex justify-center items-center p-4 cursor-pointer group hover:bg-[#2251FF]">
-                    <FaArrowRightLong className='text-[#2251FF] group-hover:text-white' />
+                <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg border">
+                    <ChevronRight className='text-[#2251FF] ' />
                 </button>
                 
 

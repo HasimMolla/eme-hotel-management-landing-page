@@ -9,16 +9,16 @@ import Image from 'next/image'
 import advisorOne from '../../public/assets/images/advisorOne.webp'
 import MemberOne from '../../public/assets/images/masterFacultyTwo.png'
 import advisorTwo from '../../public/assets/images/advisorTwo.webp'
-import advisorThree from '../../public/assets/images/advisorThree.webp'
-import advisorFour from '../../public/assets/images/advisorFour.webp'
+import advisorThree from '../../public/assets/images/advisorThreeNew.webp'
+import advisorFour from '../../public/assets/images/advisorFour.png'
 import advisorSix from '../../public/assets/images/advisorSix.png'
 import advisorNine from '../../public/assets/images/advisorNine.webp'
 import advisorEight from '../../public/assets/images/advisorEight.webp'
 import { FaXTwitter } from "react-icons/fa6";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { GoMail } from "react-icons/go";
-import { FaArrowLeftLong } from "react-icons/fa6";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { ChevronLeft } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 export const BoardofAdvisor = () => {
     const facultyMember = [
@@ -126,8 +126,8 @@ export const BoardofAdvisor = () => {
                 </div>
             </div>
             <div className='w-full flex  justify-center items-center mx-auto pt-10 gap-x-5  md:py-14'>
-                <button className="swiper-button-next-custom bg-[#2251FF] p-4  flex justify-center items-center  rounded-full cursor-pointer">
-                    <FaArrowLeftLong className='text-white' />
+                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg">
+                    <ChevronLeft className='text-[#2251FF] ' />
                 </button>
                 <Swiper
                     zoom={true}
@@ -135,6 +135,10 @@ export const BoardofAdvisor = () => {
                     breakpoints={breakpoints}
                     grabCursor={true}
                     loop={true}
+                    navigation={{
+                        nextEl: '.swiper-button-prev-custom',
+                        prevEl: '.swiper-button-next-custom',
+                    }}
                     autoplay={{
                         delay: 2000,
                         disableOnInteraction: false,
@@ -182,8 +186,8 @@ export const BoardofAdvisor = () => {
 
                 </Swiper>
 
-                <button className="swiper-button-prev-custom bg-[#2251FF] rounded-full flex justify-center items-center p-4 cursor-pointer">
-                    <FaArrowRightLong className='text-white' />
+                <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg border">
+                    <ChevronRight className='text-[#2251FF] ' />
                 </button>
 
 

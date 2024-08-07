@@ -18,9 +18,8 @@ import SOMNATHPATRA from '../../public/assets/images/SOMNATHPATRA.jpg'
 import NURULHOSEN from '../../public/assets/images/NURULHOSEN.jpg'
 import baker from '../../public/assets/images/baker.png'
 import Image from 'next/image'
-import { FaArrowLeftLong } from "react-icons/fa6";
-import { FaArrowRightLong } from "react-icons/fa6";
-
+import { ChevronLeft } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 export default function HMStudentTestimonials() {
     const breakpoints = {
 
@@ -72,8 +71,8 @@ export default function HMStudentTestimonials() {
                 
 
                 <div className="w-full  flex items-center justify-center gap-x-5 py-[40px] overflow-hidden pt-[40px]">
-                    <button className="swiper-button-next-custom bg-[#2251FF] p-4  flex justify-center items-center  rounded-full cursor-pointer">
-                        <FaArrowLeftLong  className='text-white' />
+                    <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center lg:p-3  cursor-pointer group hover:drop-shadow-lg">
+                        <ChevronLeft className='text-[#2251FF] ' />
                     </button>
 
                     <Swiper
@@ -386,8 +385,8 @@ export default function HMStudentTestimonials() {
                     </Swiper>
 
 
-                    <button className="swiper-button-prev-custom bg-[#2251FF] rounded-full flex justify-center items-center p-4 cursor-pointer">
-                        <FaArrowRightLong className='text-white' />
+                    <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center lg:p-3 cursor-pointer group hover:drop-shadow-lg border">
+                        <ChevronRight className='text-[#2251FF] ' />
                     </button>
 
 
