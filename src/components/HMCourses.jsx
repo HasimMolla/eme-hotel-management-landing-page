@@ -264,7 +264,7 @@ export default function HMCourses() {
 
             <div className='hidden w-full h-full  lg:flex  flex-col'>
                 
-                <div className='w-full  grid grid-cols-1 lg:grid-cols-3 justify-items-center content-center mx-auto gap-[30px] pt-[40px] '>
+                <div className='w-auto  grid grid-cols-1 lg:grid-cols-3 justify-items-center  mx-auto gap-x-12 pt-[40px] '>
                     {
                         HMCourses.map((course) => (
                             <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white shadow-md  '>
@@ -337,7 +337,7 @@ export default function HMCourses() {
 
                 </div>
 
-                <div className='w-auto  grid grid-cols-1 lg:grid-cols-2 justify-items-center content-center mx-auto gap-[30px] py-[40px] '>
+                <div className='w-auto  grid grid-cols-1 lg:grid-cols-2 justify-items-center content-center mx-auto gap-x-12  py-[40px] '>
                     {
                         HMCourses1.map((course) => (
                             <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white shadow-md  '>
