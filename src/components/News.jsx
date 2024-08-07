@@ -100,7 +100,7 @@ export const News = () => {
 
     };
     return (
-        <div id='news' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-10 px-5 md:px-10 '>
+        <div id='news' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center py-10 px-5 md:px-10 '>
             <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
                 <div>In The</div>
                 <div className=" text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
@@ -112,8 +112,8 @@ export const News = () => {
                     </span>
                 </div>
             </div>
-            <div className='w-full flex  justify-center items-center   gap-x-5 pt-10 md:pt-14'>
-                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg">
+            <div className='w-full flex  justify-center items-center   gap-x-5   '>
+                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-3 cursor-pointer ">
                     <ChevronLeft className='text-[#2251FF] ' />
                 </button>
                 <Swiper
@@ -133,14 +133,14 @@ export const News = () => {
                         prevEl: '.swiper-button-next-custom',
                     }}
                     modules={[Autoplay, Zoom, Navigation]}
-                    className='mySwiper w-full flex  items-center self-center  mx-auto'
+                    className='mySwiper w-full flex  items-center self-center  mx-auto '
                 >
                     {
                         NewsData.map((data) => (
 
-                            <SwiperSlide key={data.id} className='swiper-zoom-container'>
+                            <SwiperSlide key={data.id} className='swiper-zoom-container my-10  shadow-lg  rounded-xl'>
 
-                                <a className="flex flex-col items-center justify-start  w-[280px] h-[280px] lg:w-[270px] lg:h-[320px] rounded-lg   p-3 bg-white border  shadow-sm " href={data.link} target='_blank'>
+                                <a className="flex flex-col items-center justify-start  w-[280px] h-[280px] lg:w-[270px] lg:h-[320px]  rounded-xl  p-3 bg-white    " href={data.link} target='_blank'>
                                     <Image
                                         className="w-full  h-[250px] object-cover object-center  "
                                         width={500}

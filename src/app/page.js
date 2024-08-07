@@ -48,13 +48,13 @@ export default function Home() {
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
         <WhyEme />
       </div>
-      <div className="flex w-full  bg-[#fff] ">
+      <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
         <StudentTetimonials />
       </div>
       <div className="flex w-full  bg-[#fff] ">
         <CareerProspect />
       </div>
-      <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+      <div className="flex w-full  bg-white">
         <Awards />
       </div>
       <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
@@ -76,7 +76,8 @@ export default function Home() {
               <div className=" text-[#2251FF] leading-10 lg:text-5xl  font-bold ">
                 <span className="text-[#E87D1A]">S</span>tudents Say
                 <span>
-                  <svg className="w-[185px] md:w-[273px]"
+                  <svg
+                    className="w-[185px] md:w-[273px]"
                     xmlns="http://www.w3.org/2000/svg"
                     width="273"
                     height="9"

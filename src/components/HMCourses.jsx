@@ -124,7 +124,7 @@ export default function HMCourses() {
 
     };
     return (
-        <div className='w-full  max-w-[1380px] mx-auto flex flex-col items-center gap-y-5 py-10 px-[20px] md:px-24 bg-[linear-gradient(to_right,#4f4f4f23_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f23_1px,transparent_1px)] bg-[size:100px_60px] 2xl:bg-[size:120px_80px]'>
+        <div className='w-full  max-w-[1380px] mx-auto flex flex-col items-center gap-y-5 py-10 px-[20px] md:px-24 bg-[linear-gradient(to_right,#4f4f4f23_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f23_1px,transparent_1px)] bg-[size:150px_60px] 2xl:bg-[size:120px_80px]'>
             <AdmissionModal {..._this} />
             <div className="w-full flex justify-center   ">
                 <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
@@ -267,7 +267,7 @@ export default function HMCourses() {
                 <div className='w-auto  grid grid-cols-1 lg:grid-cols-3 justify-items-center  mx-auto gap-x-12 pt-[40px] '>
                     {
                         HMCourses.map((course) => (
-                            <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white shadow-md  '>
+                            <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px]  rounded-lg overflow-hidden bg-white shadow-custom  '>
                                 <div className='relative'>
                                     <Image className='w-full h-[170px] object-cover object-right-top'
                                         width={200}
@@ -340,7 +340,7 @@ export default function HMCourses() {
                 <div className='w-auto  grid grid-cols-1 lg:grid-cols-2 justify-items-center content-center mx-auto gap-x-12  py-[40px] '>
                     {
                         HMCourses1.map((course) => (
-                            <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white shadow-md  '>
+                            <div key={course.id} className='w-[300px] lg:w-[320px] lg:min-h-[380px]  rounded-lg overflow-hidden bg-white shadow-custom  '>
                                 <div className='relative'>
                                     <Image className='w-full h-[170px] object-cover object-right-top'
                                         width={200}
