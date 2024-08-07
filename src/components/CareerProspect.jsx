@@ -740,9 +740,13 @@ function CareerProspect() {
                       </span>
                   </div>
               </div>
-              <div className='w-full flex flex-wrap justify-center items-center gap-5 px-10 2xl:px-24'>
+              <div className='w-full flex flex-wrap  justify-center items-center gap-5 py-5 px-10 2xl:px-24'>
                   {careerContent.map((data,index) => (
-                      <div key={index} className='border-2 border-[#B3DAFF] px-5 py-2 rounded-full text-sm text-[#232D63]'>{ data}</div>
+                      <div key={index} className='min-w-20 h-9 rounded-full bg-gradient-to-r from-[#B3DAFF]  via-[#31C3FF] to-[#1E4CEC] p-[2px] text-sm text-[#232D63] font-semibold' >
+                          <div className='w-full h-full  px-4 rounded-full  bg-white flex justify-center items-center  '>
+                              {data}
+                          </div>
+                      </div>
                   ))}
               </div>
           </div>

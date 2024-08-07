@@ -17,36 +17,41 @@ function StudentWorking() {
                     <span className="text-[#E87D1A]">W</span>orking In
                 </div>
             </div>
-            <div className='w-[80%] '>
+            <div className='w-[80%]  '>
                 <Marquee speed={20}>
-                    <div className=' flex items-center justify-center gap-x-8'>
+                    <div className=' flex items-center justify-center gap-x-8 mx-5'>
                         <Image
-                            className=''
-                            width={80}
-                            height={80}
+                        className='company-img'
+                            width={100}
+                            height={100}
                             src={taj}
                             alt='taj' />
-                        <Image
+                    <Image
+                        className='company-img'
                             width={120}
                             height={120}
                             src={westin}
                             alt='taj' />
-                        <Image
+                    <Image
+                        className='company-img'
                             width={120}
                             height={120}
                             src={hyatt}
                             alt='taj' />
-                        <Image
+                    <Image
+                        className='company-img'
                             width={120}
                             height={120}
                             src={Novotel}
                             alt='taj' />
-                        <Image
-                            width={80}
-                            height={80}
+                    <Image
+                        className='company-img'
+                            width={100}
+                            height={100}
                             src={itc}
                             alt='taj' />
-                        <Image
+                    <Image
+                        className='company-img'
                             width={100}
                             height={100}
                             src={indigo}

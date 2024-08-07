@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Awards() {
   return (
       <div className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-10 px-5 md:px-24'>
-          <div className="w-full h-[350px]  bg-white  border rounded-xl flex items-center justify-between overflow-hidden">
+          <div className="w-full h-[350px]  bg-white shadow-md  border rounded-xl flex items-center justify-between overflow-hidden">
               <div className="w-[30%] flex flex-col gap-y-2 px-14 py-2 justify-center items-center" >
                   <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" fill="none">
                       <path d="M26.25 42.5833H21C18.4333 42.5833 16.3333 44.6833 16.3333 47.25V47.8333H14C13.0433 47.8333 12.25 48.6267 12.25 49.5833C12.25 50.54 13.0433 51.3333 14 51.3333H42C42.9567 51.3333 43.75 50.54 43.75 49.5833C43.75 48.6267 42.9567 47.8333 42 47.8333H39.6667V47.25C39.6667 44.6833 37.5667 42.5833 35 42.5833H29.75V37.24C29.1667 37.31 28.5833 37.3333 28 37.3333C27.4167 37.3333 26.8333 37.31 26.25 37.24V42.5833Z" fill="#00A2E7" />

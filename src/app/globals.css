@@ -68,6 +68,8 @@
   }
 }
 
-.custom-border {
-  
+@layer components {
+  .company-img{
+    @apply  aspect-[3/2] object-contain 
+  }
 }
