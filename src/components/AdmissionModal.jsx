@@ -82,8 +82,8 @@ export default function AdmissionModal(_this) {
                 theme={{
                     components: {
                         Modal: {
-                            headerBg: "#bdd8f5",
-                            contentBg: "#bdd8f5",
+                            headerBg: "#CAE5FF",
+                            contentBg: "#CAE5FF",
                         },
                     },
                 }}
@@ -91,7 +91,7 @@ export default function AdmissionModal(_this) {
 
                 <Modal
                     title={
-                        <div className="w-full flex flex-col justify-start items-center gap-[5px] bg-[#bdd8f5]">
+                        <div className="w-full flex flex-col justify-start items-center gap-[5px] bg-[#CAE5FF]">
                             <h1 className="text-[24px] font-[500] leading-5 text-[#000]">
                                 Admission Open
                             </h1>
@@ -100,15 +100,15 @@ export default function AdmissionModal(_this) {
               </p> */}
                         </div>
                     }
-                    width={350}
+                    width={320}
                     centered={true}
                     open={_this.isModalOpen}
                     clo
                     onCancel={() => _this.setIsModalOpen(false)}
                     footer={<div></div>}
-                    className="color-[#bdd8f5]"
+                    className="color-[#bdd8f5] border-2 border-[#00A2E7] bg-[#CAE5FF] rounded-lg"
                 >
-                    <div className="max-h-[320px] min-h-[320px] py-5">
+                    <div className=" max-h-[320px] py-5  bg-[#CAE5FF]">
                         <div className="w-full h-full flex justify-center items-center">
                             {
                                 formVisible
@@ -156,7 +156,7 @@ export default function AdmissionModal(_this) {
                                             />
 
                                             <select
-                                                className="rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] text-[14px] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
+                                                className="hidden rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] text-[14px] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
                                                 placeholder="Select Courses"
                                                 value={admissiondata.course}
                                                 onChange={(e) => {
@@ -184,7 +184,7 @@ export default function AdmissionModal(_this) {
 
                                             <button
                                                 type="submit"
-                                                className="w-full text-[#fff] text-[15px] font-[700] bg-[#009743] hover:bg-[#009743]/90 transition-colors rounded-md border border-[#FFCD1F] px-[40px] py-[12px]"
+                                                className="w-full text-[#fff] text-[15px] font-[700] bg-[#00A2E7] hover:bg-[#00A2E7]/90 transition-colors rounded-md border border-[#FFCD1F] px-[40px] py-2"
                                             >
                                                 Apply Now
                                             </button>
