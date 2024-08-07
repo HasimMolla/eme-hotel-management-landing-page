@@ -18,10 +18,11 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        'custom': '0px 20px 60px 0px rgba(38, 45, 118, 0.12)',
-        'customTwo': '0px 30px 60px 0px rgba(32, 56, 85, 0.15)',
+        custom: "0px 20px 60px 0px rgba(38, 45, 118, 0.12)",
+        customTwo: "0px 30px 60px 0px rgba(32, 56, 85, 0.15)",
+        customThree: "0px 5px 16px 0px rgba(8, 15, 52, 0.06)",
       },
-      
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
