@@ -41,9 +41,9 @@ export default function HMfaq() {
     ]
     return (
         <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-center py-10 px-5 md:px-24">
-            <div className=" flex items-start justify-center gap-x-5 md:gap-x-10">
+            <div className=" flex flex-col md:flex-row items-start justify-center gap-5 md:gap-x-10">
                 <div className="w-auto flex justify-center">
-                    <div className="flex flex-col items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
+                    <div className="flex flex-col items-center justify-center gap-x-2 text-[#042A76] text-5xl leading-10 lg:leading-10 lg:text-5xl  font-bold ">
                         <div><span className="text-[#E87D1A]">F</span>AQ&apos;S</div>
                         
                             <span>
@@ -55,11 +55,11 @@ export default function HMfaq() {
                     </div>
                 </div>
                 <div className="w-full mx-auto ">
-                    <Accordion type="single" collapsible className="flex flex-col gap-y-4">
+                    <Accordion type="single" collapsible className="w-full flex flex-col gap-y-4">
                         {
                             sapfaq.map((faq) => (
                                 <AccordionItem key={faq.id} value={faq.id} className="bg-[#fff] w-full rounded-xl md:rounded-2xl px-3 md:px-6  shadow-sm border [&[data-state=open]]:border-2 [&[data-state=open]]:border-[#00A2E7] no-underline">
-                                    <AccordionTrigger className="font-semibold text-sm text-start md:text-lg text-[#232D63] ">{faq.title}</AccordionTrigger>
+                                    <AccordionTrigger className="font-semibold text-[15px] text-start md:text-lg text-[#232D63] ">{faq.title}</AccordionTrigger>
                                     <AccordionContent className="font-normal text-sm lg:text-sm text-[#6F6C90]">
                                         {faq.decs}
                                     </AccordionContent>

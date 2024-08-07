@@ -12,12 +12,12 @@ import GalleryEight from "../../public/assets/images/GalleryEight.webp"
 export const StudentGallery = () => {
     return (
         <div id='gallery' className='w-full   mx-auto flex flex-col items-center pt-10'>
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
+            <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-3xl leading-10 lg:leading-10 lg:text-5xl  font-bold ">
                 <div>Student</div>
                 <div className=" text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
                     <span className="text-[#E87D1A]">G</span>allery
                     <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="147" height="9" viewBox="0 0 147 9" fill="none">
+                        <svg className='w-[104px] md:w-[147px]' xmlns="http://www.w3.org/2000/svg" width="147" height="9" viewBox="0 0 147 9" fill="none">
                             <path d="M0.824219 7.80176C40.8954 0.12483 96.3642 -0.514953 146.824 7.80176" stroke="#E87D1A" stroke-width="2.24694" />
                         </svg>
                     </span>

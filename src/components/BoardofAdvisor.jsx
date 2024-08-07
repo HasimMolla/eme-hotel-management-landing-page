@@ -113,20 +113,20 @@ export const BoardofAdvisor = () => {
 
     };
     return (
-        <div id='advisors' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-10 px-5 md:px-10'>
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
+        <div id='advisors' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-10 px-[10px] md:px-10'>
+            <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-3xl leading-10 lg:leading-10 lg:text-5xl  font-bold ">
                 <div>Meet Our</div>
                 <div className=" text-[#042A76] lg:leading-10 lg:text-5xl  font-bold ">
                     <span className="text-[#E87D1A]">B</span>oard of Advisors
                     <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="369" height="9" viewBox="0 0 369 9" fill="none">
+                        <svg className='w-[164px] md:w-[369px]' xmlns="http://www.w3.org/2000/svg" width="369" height="9" viewBox="0 0 369 9" fill="none">
                             <path d="M1 7.80176C101.727 0.12483 241.159 -0.514953 368 7.80176" stroke="#E87D1A" stroke-width="2.24694" />
                         </svg>
                     </span>
                 </div>
             </div>
             <div className='w-full flex  justify-center items-center mx-auto pt-10 gap-x-5  md:py-14'>
-                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg">
+                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer group hover:drop-shadow-lg">
                     <ChevronLeft className='text-[#2251FF] ' />
                 </button>
                 <Swiper
@@ -150,8 +150,8 @@ export const BoardofAdvisor = () => {
                     {
                         facultyMember.map((member) => (
                             <SwiperSlide key={member.id} className='swiper-zoom-container'>
-                                <div className='w-[280px] h-[350px] lg:w-[300px]  lg:h-[400px] bg-white border border-[#DCDCDC] rounded-xl relative flex flex-col justify-start items-center py-5 gap-y-4'>
-                                    <div className='w-[200px] lg:w-[260px] h-[200px] lg:h-[250px] bg-white  '>
+                                <div className='w-[280px] h-[350px] lg:w-[300px]  lg:h-[400px] bg-white border border-[#DCDCDC] rounded-xl relative flex flex-col justify-start items-center py-3 lg:py-5 gap-y-4'>
+                                    <div className='w-[220px] h-[200px] lg:w-[260px]  lg:h-[250px] bg-white  '>
                                         <Image
                                             className="w-full  h-full object-cover object-right-top  "
                                             width={400}
@@ -186,7 +186,7 @@ export const BoardofAdvisor = () => {
 
                 </Swiper>
 
-                <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg border">
+                <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center  p-2 lg:p-3 cursor-pointer group hover:drop-shadow-lg border">
                     <ChevronRight className='text-[#2251FF] ' />
                 </button>
 

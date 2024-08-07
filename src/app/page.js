@@ -69,14 +69,14 @@ export default function Home() {
       </div>
 
       <div className="flex  w-full  bg-[#fff] ">
-        <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-start gap-[40px] py-[70px]  px-[20px] md:px-10 ">
+        <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-start gap-[40px] py-[70px]  px-[10px] md:px-10 ">
           <div className="w-full flex flex-col justify-center items-center gap-[20px]">
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
+            <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-3xl leading-10 lg:text-5xl  font-bold ">
               <div>What Our</div>
-              <div className=" text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
+              <div className=" text-[#2251FF] leading-10 lg:text-5xl  font-bold ">
                 <span className="text-[#E87D1A]">S</span>tudents Say
                 <span>
-                  <svg
+                  <svg className="w-[185px] md:w-[273px]"
                     xmlns="http://www.w3.org/2000/svg"
                     width="273"
                     height="9"

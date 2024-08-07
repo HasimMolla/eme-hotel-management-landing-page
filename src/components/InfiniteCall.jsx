@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 function InfiniteCall() {
   return (
       
-          <div className="w-full  pt-[50px] lg:pt-[80px]  ">
+          <div className="w-full  pt-[80px] lg:pt-[80px]  ">
               <div className="bg-[#00A2E7] py-2 flex justify-center gap-x-24 text-white text-sm leading-4">
               <Marquee speed={20}>
                   <div>✦</div>

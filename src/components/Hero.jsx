@@ -13,7 +13,7 @@ function Hero() {
     email_sender,
   };
   return (
-    <div className="w-full max-h-[100vh] max-w-[1380px] mx-auto flex items-center justify-between  gap-x-6 pt-5 md:pt-10  px-[20px] md:px-24 ">
+    <div className="w-full  md:max-h-[100vh] max-w-[1380px] mx-auto flex flex-col md:flex-row items-center justify-between  gap-x-6 pt-5 md:pt-10  px-[20px] md:px-24 ">
       <div className='w-[30%] h-full flex items-end '>
         <Image className='w-full min-h-[420px]  object-cover  object-center  drop-shadow-2xl'
           width={500}

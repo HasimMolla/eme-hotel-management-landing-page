@@ -25,12 +25,12 @@ export default function HMStudentTestimonials() {
 
         300: {
             slidesPerView: 1,
-            spaceBetween: 40
+            spaceBetween: 0
         },
 
         370: {
             slidesPerView: 1,
-            spaceBetween: 40
+            spaceBetween: 0
         },
 
 
@@ -62,7 +62,7 @@ export default function HMStudentTestimonials() {
 
     };
     return (
-        <div className='w-full   flex  items-start gap-[40px]  '>
+        <div className='w-full   flex  items-start   '>
             <div className="w-full flex flex-col gap-[20px]">
 
 
@@ -71,7 +71,7 @@ export default function HMStudentTestimonials() {
                 
 
                 <div className="w-full  flex items-center justify-center gap-x-5 py-[40px] overflow-hidden pt-[40px]">
-                    <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center lg:p-3  cursor-pointer group hover:drop-shadow-lg">
+                    <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3  cursor-pointer group hover:drop-shadow-lg">
                         <ChevronLeft className='text-[#2251FF] ' />
                     </button>
 
@@ -100,7 +100,7 @@ export default function HMStudentTestimonials() {
 
 
                         <SwiperSlide className='py-[20px] swiper-zoom-container'>
-                            <div className="max-w-[350px] h-[500px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
+                            <div className="w-[300px] lg:max-w-[350px] lg:h-[500px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
                                 <div className="w-full flex justify-between">
                                     <div className=' w-[60px] h-[60px] rounded-full overflow-hidden'>
                                         <Image
@@ -385,7 +385,7 @@ export default function HMStudentTestimonials() {
                     </Swiper>
 
 
-                    <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center lg:p-3 cursor-pointer group hover:drop-shadow-lg border">
+                    <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer group hover:drop-shadow-lg border">
                         <ChevronRight className='text-[#2251FF] ' />
                     </button>
 
