@@ -1036,7 +1036,7 @@ export default function Home() {
       <div className="flex  w-full  bg-[#fff] ">
         <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-start gap-[40px] py-10  px-[10px] md:px-10 ">
           <div className="w-full flex flex-col justify-center items-center gap-[20px]">
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-3xl leading-10 lg:text-5xl  font-bold ">
+            <div className="flex flex-row items-start justify-center gap-x-2 text-[#042A76] text-3xl leading-10 lg:text-5xl  font-bold ">
               <div>What Our</div>
               <div className=" text-[#2251FF] leading-10 lg:text-5xl  font-bold ">
                 <span className="text-[#E87D1A]">S</span>tudents Say

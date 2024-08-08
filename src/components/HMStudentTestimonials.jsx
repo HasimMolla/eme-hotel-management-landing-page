@@ -65,11 +65,6 @@ export default function HMStudentTestimonials() {
         <div className='w-full   flex  items-start   '>
             <div className="w-full flex flex-col gap-[20px]">
 
-
-               
-                  
-                
-
                 <div className="w-full  flex items-center justify-center gap-x-3 md:gap-x-5 py-[40px] overflow-hidden ">
                     <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3  cursor-pointer group hover:drop-shadow-lg">
                         <ChevronLeft className='text-[#2251FF] ' />
