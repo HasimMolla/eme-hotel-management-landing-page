@@ -58,7 +58,7 @@ export default function HMfaq() {
                     <Accordion type="single" collapsible className="w-full flex flex-col gap-y-6">
                         {
                             sapfaq.map((faq) => (
-                                <AccordionItem key={faq.id} value={faq.id} className="bg-[#fff] w-full rounded-xl md:rounded-2xl px-3 md:px-6 py-3 shadow-customThree  [&[data-state=open]]:border-2 [&[data-state=open]]:border-[#00A2E7] no-underline">
+                                <AccordionItem key={faq.id} value={faq.id} className="bg-[#fff] w-full rounded-xl md:rounded-2xl px-3 md:px-6 md:py-3 shadow-customThree  [&[data-state=open]]:border-2 [&[data-state=open]]:border-[#00A2E7] no-underline">
                                     <AccordionTrigger className="font-semibold text-[15px] text-start md:text-lg text-[#232D63] ">{faq.title}</AccordionTrigger>
                                     <AccordionContent className="font-normal text-sm lg:text-sm text-[#6F6C90]">
                                         {faq.decs}

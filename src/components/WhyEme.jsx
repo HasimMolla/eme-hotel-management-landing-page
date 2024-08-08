@@ -9,7 +9,7 @@ export default function WhyEme() {
     return (
         <div id='whyEME' className="w-full  max-w-[1380px] mx-auto  py-5 md:py-[70px]  px-[20px] md:px-24 ">
             <div className="w-full flex flex-col md:flex-row justify-center  gap-[40px]">
-                <div className="w-full md:w-[40%] flex flex-col gap-y-1 md:gap-y-4 justify-center md:justify-start  text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold  ">
+                <div className="w-full md:w-[40%] flex flex-col gap-y-1 md:gap-y-4 justify-center items-center md:justify-start  text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold  ">
                     <div><span className="text-[#E87D1A]">W</span>hy study with  </div>
                     <div className='  text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold '>EME ACADEMY
                         <span><svg className="w-[225px] md:w-[301px]" xmlns="http://www.w3.org/2000/svg" width="301" height="10" viewBox="0 0 301 10" fill="none">

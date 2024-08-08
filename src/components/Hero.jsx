@@ -13,8 +13,68 @@ function Hero() {
     email_sender,
   };
   return (
-    <div className="w-full  md:max-h-[100vh] max-w-[1380px] mx-auto flex flex-col md:flex-row items-center justify-between  gap-x-6 pt-5 md:pt-10  px-[20px] md:px-24 ">
-      <div className='w-[30%] h-full flex items-end '>
+    <div className="w-full  md:max-h-[100vh] max-w-[1380px] mx-auto flex flex-col md:flex-row items-center justify-between gap-y-3  lg:gap-x-6 pt-5 md:pt-10  px-[20px] md:px-24 ">
+      <div className='w-full lg:hidden inline'>
+        <div className='w-full text-[#042A76] text-base lg:leading-10 lg:text-3xl  font-bold text-nowrap text-center '>
+          <span className="text-[#E87D1A]">E</span>astern India’s <span className="text-[#E87D1A]">Top 10</span> Ranked
+
+        </div>
+        <div className='w-full text-[#00A2E7] text-xl lg:leading-10 lg:text-3xl  font-bold flex justify-center gap-x-1 lg:gap-x-2 text-center '>
+          <div>Hotel Management
+            <span>
+              <svg className='w-[195px] lg:w-[273px]' xmlns="http://www.w3.org/2000/svg" width="273" height="7" viewBox="0 0 273 7" fill="none">
+                <path d="M1 5C77.9054 0.999983 195.095 0.999843 272 5" stroke="#E87D1A" stroke-width="2.24694" />
+              </svg>
+            </span>
+          </div>
+          <div>
+            Institute
+          </div>
+        </div>
+      </div>
+
+      <div className='w-full flex lg:hidden'>
+        <div className=' w-[45%] h-full flex items-end '>
+          <Image className='w-auto h-[250px]  object-cover  object-center  drop-shadow-2xl'
+            width={500}
+            height={500}
+            src={hotelChef}
+            alt='hotel chef'
+          />
+        </div>
+        <div className=' w-[55%] flex  items-center justify-center '>
+         
+
+          <div className='w-full flex flex-col gap-y-3 justify-center items-start px-6'>
+            <div className='w-full  flex flex-col justify-start text-black text-[10px]  font-semibold  items-center gap-y-4'>
+              
+              <div className=' w-full text-black text-xs  flex gap-x-1  justify-start font-semibold '>
+                <span className='text-[#00A2E7]'>✦</span> Earning Opportunity Upto 12k During Training Period
+                </div>
+              <div className=' w-full text-black text-xs flex gap-x-1  justify-start font-semibold '>
+                <span className='text-[#00A2E7]'>✦</span> Salary: 3.6 LPA to 12 LPA
+                </div>
+              <div className=' w-full text-black text-xs flex gap-x-1  justify-start font-semibold '>
+                <span className='text-[#00A2E7]'>✦</span>  Get Opportunity to work in Cruise Ship / 5 Stars Hotels / Airlines / IRCTC and Hospitals
+                </div>
+              <div className=' w-full text-black text-xs flex gap-x-1  justify-start font-semibold '>
+                  <span className='text-[#00A2E7]'>✦</span> 100% Job Support
+              </div>
+              <div className=' w-full text-black text-xs flex gap-x-1  justify-start font-semibold '>
+                <span className='text-[#00A2E7]'>✦</span> 100% Placement Support
+              </div>
+
+              
+
+            </div>
+           
+          </div>
+
+        
+        </div>
+      </div>
+
+      <div className='hidden w-[30%] h-full lg:flex items-end '>
         <Image className='w-full min-h-[420px]  object-cover  object-center  drop-shadow-2xl'
           width={500}
           height={500}
@@ -22,8 +82,9 @@ function Hero() {
           alt='hotel chef'
         />
       </div>
-      <div className='w-[40%] flex flex-col gap-y-10 items-center justify-center '>
-        <div className='w-full'>
+
+      <div className='hidden w-[40%] lg:flex flex-col gap-y-10 items-center justify-center '>
+        <div className='w-full hidden lg:inline'>
           <div className='w-full text-[#042A76] lg:leading-10 lg:text-3xl  font-bold text-nowrap text-center '>
             <span className="text-[#E87D1A]">E</span>astern India’s <span className="text-[#E87D1A]">Top 10</span> Ranked
 
@@ -70,7 +131,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className='w-full  flex flex-col items-start gap-y-5'>
+        <div className='hidden w-full  lg:flex flex-col items-start gap-y-5'>
           <div className='w-full  flex items-center gap-x-2'>
             <div>
               <Image className='w-8 h-8 '
@@ -253,7 +314,7 @@ function Hero() {
         </div>
       </div>
       
-      <div className='w-[30%] '>
+      <div className='w-[30%] hidden lg:inline'>
         <AdmissionForm {..._this} />
       </div>
     </div>
