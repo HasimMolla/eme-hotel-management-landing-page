@@ -148,7 +148,8 @@ export default function HMCourses() {
 
             <div className=' w-full h-full flex lg:hidden flex-col max-w-[1380px] mx-auto '>
                 <div className='w-full  flex items-center justify-center gap-x-5 pb-[40px] overflow-hidden'>
-                    <button className="swiper-button-prev-custom_course bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer ">
+
+                    <button className="swiper-button-prev-custom-course bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer ">
                         <ChevronLeft className='text-[#2251FF] ' />
                     </button>
                     <Swiper
@@ -163,11 +164,11 @@ export default function HMCourses() {
                         zoom={true}
                         grabCursor={true}
                         navigation={{
-                            nextEl: '.swiper-button-prev-custom_course',
-                            prevEl: '.swiper-button-next-custom_course',
+                            nextEl: '.swiper-button-next-custom-course',
+                            prevEl: '.swiper-button-prev-custom-course',
                         }}
                         modules={[Zoom, Navigation, Keyboard]}
-                        className="mySwiper"
+                        className="mySwiper w-full  flex  items-center justify-center   mx-auto"
                     >
                         {
                             HMCourses.map((course) => (
@@ -182,11 +183,11 @@ export default function HMCourses() {
                                         />
 
                                         <div className='w-full px-3 py-4 flex flex-col gap-y-4'>
-                                            <div className='text-[#232D63] font-bold text-base'>
+                                            <div className='text-[#232D63] font-bold text-sm lg:text-base'>
                                                 {course.name}
                                             </div>
                                             <div className='w-full flex flex-col gap-y-2'>
-                                                <div className='w-full flex items-center gap-x-2'>
+                                                <div className='w-full flex items-center   gap-x-2 '>
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
                                                             <path d="M9.12526 2.30599L4.10859 5.58099C2.50026 6.63099 2.50026 8.98099 4.10859 10.031L9.12526 13.306C10.0253 13.8977 11.5085 13.8977 12.4085 13.306L17.4002 10.031C19.0002 8.98099 19.0002 6.63933 17.4002 5.58933L12.4085 2.31433C11.5085 1.71433 10.0253 1.71433 9.12526 2.30599Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -194,7 +195,7 @@ export default function HMCourses() {
                                                             <path d="M18.583 12.6978V7.69775" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                         </svg>
                                                     </div>
-                                                    <div className='text-xs text-[#121112] leading-3'>{course.decsOne}</div>
+                                                    <div className='text-xs text-[#121112] leading-3 text-start'>{course.decsOne}</div>
                                                 </div>
                                                 <div className='w-full flex items-center gap-x-2'>
                                                     <div>
@@ -236,7 +237,7 @@ export default function HMCourses() {
                         }
                     </Swiper>
 
-                    <button className="swiper-button-next-custom_course bg-white drop-shadow-md  rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer group hover:drop-shadow-lg border">
+                    <button className="swiper-button-next-custom-course bg-white drop-shadow-md  rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer group hover:drop-shadow-lg border">
                         <ChevronRight className='text-[#2251FF] ' />
                     </button>
 
