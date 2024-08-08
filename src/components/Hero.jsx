@@ -1,4 +1,4 @@
-import hotelChef from '../../public/assets/images/hotelChefCopy.png'
+import hotelChef from '../../public/assets/images/hotelChefNew.png'
 import certiface from '../../public/assets/images/certified.png'
 import iso from '../../public/assets/images/iso.png'
 import startup from '../../public/assets/images/startup.png'
@@ -13,7 +13,7 @@ function Hero() {
     email_sender,
   };
   return (
-    <div className="w-full  md:max-h-[100vh] max-w-[1380px] mx-auto flex flex-col md:flex-row items-center justify-between gap-y-3  lg:gap-x-6 pt-5 md:pt-10  px-[20px] md:px-24 ">
+    <div className="w-full  md:max-h-[100vh] max-w-[1380px] mx-auto flex flex-col md:flex-row items-center justify-between gap-y-3  lg:gap-x-6 pt-5 md:pt-10  px-2 md:px-24 ">
       <div className='w-full lg:hidden inline'>
         <div className='w-full text-[#042A76] text-base lg:leading-10 lg:text-3xl  font-bold text-nowrap text-center '>
           <span className="text-[#E87D1A]">E</span>astern India’s <span className="text-[#E87D1A]">Top 10</span> Ranked
