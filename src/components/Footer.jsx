@@ -30,7 +30,7 @@ export default function Footer() {
                 <div className='w-full flex flex-col lg:flex-row justify-between items-start gap-[40px] lg:gap-[100px]'>
                     <div className='flex flex-col justify-start items-start gap-[20px] lg:gap-[40px] '>
                         <Image
-                            className=" w-[80px] h-[34px] lg:w-[120px]   "
+                            className=" w-[100px]  lg:w-[120px]   "
                             width={500}
                             height={500}
                             src={logo}

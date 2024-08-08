@@ -82,7 +82,7 @@ export default function AdmissionForm(_this) {
             });
     };
     return (
-        <div className=" w-[300px] h-[300px] lg:max-w-[300px] lg:min-h-[350px] px-6 py-[20px] lg:py-5 flex flex-col border-double border-4 border-[#00A2E7]  rounded-2xl justify-start items-center gap-[20px]">
+        <div className=" w-[300px] min-h-[300px] lg:max-w-[300px] lg:min-h-[350px] px-6 py-[20px] lg:py-5 flex flex-col border-double border-4 border-[#00A2E7]  rounded-2xl justify-start items-center gap-[20px]">
             <div className="w-full flex flex-col justify-start items-center gap-[5px]">
                 <h1 className="text-[24px] font-[500] leading-5 text-[#000] pb-2">Admission Open</h1>
                 {/* <p className="text-[14px] font-[500] leading-5 text-[#000]"></p> */}

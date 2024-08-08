@@ -80,7 +80,7 @@ export const StudentTetimonials = () => {
     };
     return (
         <div id='testimonials' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-5 md:pt-10 px-5 md:px-10'>
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
+            <div className="flex flex-row items-start justify-center gap-x-2 text-[#2251FF] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
                 <div><span className="text-[#E87D1A]">S</span>tudents</div>
                 <div className=" text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold  ">
                     Testimonials

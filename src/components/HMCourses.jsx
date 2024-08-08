@@ -125,10 +125,10 @@ export default function HMCourses() {
 
     };
     return (
-        <div className='w-full   flex flex-col items-center gap-y-5 py-10 px-[10px] md:px-24 bg-[linear-gradient(to_right,#4f4f4f23_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f23_1px,transparent_1px)] bg-[size:150px_60px] 2xl:bg-[size:120px_80px]'>
+        <div className='w-full   flex flex-col items-center gap-y-5 py-5 lg:py-10 px-[10px] md:px-24 bg-[linear-gradient(to_right,#4f4f4f23_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f23_1px,transparent_1px)] bg-[size:150px_60px] 2xl:bg-[size:120px_80px]'>
             <AdmissionModal {..._this} />
             <div className="w-full flex justify-center  max-w-[1380px] mx-auto ">
-                <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
+                <div className="flex flex-row items-start justify-center gap-x-2 text-[#2251FF] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
                     <div><span className="text-[#E87D1A]">O</span>ur</div>
                     <div className=" text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold  ">
                         Courses
@@ -147,7 +147,7 @@ export default function HMCourses() {
 
 
             <div className=' w-full h-full flex lg:hidden flex-col max-w-[1380px] mx-auto '>
-                <div className='w-full  flex items-center justify-center gap-x-5 pb-[40px] overflow-hidden'>
+                <div className='w-full  flex items-center justify-center gap-x-5 pb-5 lg:pb-[40px] overflow-hidden'>
 
                     <button className="swiper-button-prev-custom-course bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer ">
                         <ChevronLeft className='text-[#2251FF] ' />

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function Awards() {
   return (
-      <div className='w-full  max-w-[1380px] mx-auto flex flex-col items-center py-14 px-5 md:px-24'>
+      <div className='w-full  max-w-[1380px] mx-auto flex flex-col items-center py-5 lg:py-14 px-5 md:px-24'>
           <div className="w-full h-[500px] md:h-[350px]  bg-white  shadow-2xl  rounded-xl flex flex-col md:flex-row items-center justify-between  overflow-hidden">
               
               <div className="w-full md:w-[35%] h-[40%] md:h-full flex flex-col gap-y-2 px-14 py-2 justify-center items-center" >

@@ -12,7 +12,7 @@ import GalleryEight from "../../public/assets/images/GalleryEight.webp"
 export const StudentGallery = () => {
     return (
         <div id='gallery' className='w-full   mx-auto flex flex-col items-center pt-10'>
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-3xl leading-10 lg:leading-10 lg:text-5xl  font-bold ">
+            <div className="flex flex-row items-start justify-center gap-x-2 text-[#042A76] text-3xl leading-10 lg:leading-10 lg:text-5xl  font-bold ">
                 <div>Student</div>
                 <div className=" text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
                     <span className="text-[#E87D1A]">G</span>allery
@@ -22,7 +22,9 @@ export const StudentGallery = () => {
                         </svg>
                     </span>
                 </div>
+                
             </div>
+            
             <div className='w-full flex items-center justify-around flex-nowrap mx-auto overflow-hidden whitespace-nowrap flex-shrink-0 group md:py-10 space-x-8 md:space-x-16 '>
 
                 <Marquee pauseOnHover autoFill >
