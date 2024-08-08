@@ -732,7 +732,7 @@ function CareerProspect() {
               <div className="flex  items-center justify-center gap-x-2 text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
                   <div><span className="text-[#E87D1A]">C</span>areer Prospect
                       <span>
-                          <svg className='inline md:hidden w-[150px] md:w-[386px]' xmlns="http://www.w3.org/2000/svg" width="386" height="9" viewBox="0 0 386 9" fill="none">
+                          <svg className=' md:hidden w-[150px] md:w-[386px]' xmlns="http://www.w3.org/2000/svg" width="386" height="9" viewBox="0 0 386 9" fill="none">
                               <path d="M0.40625 7.68164C106.073 0.00471247 252.344 -0.63507 385.406 7.68164" stroke="#E87D1A" stroke-width="2.24694" />
                           </svg>
                       </span></div>

@@ -150,34 +150,37 @@ export const BoardofAdvisor = () => {
                     {
                         facultyMember.map((member) => (
                             <SwiperSlide key={member.id} className='swiper-zoom-container'>
-                                <div className='w-[280px] h-[350px] lg:w-[300px]  lg:h-[400px] bg-white border border-[#DCDCDC] rounded-xl relative flex flex-col justify-start items-center py-3 lg:py-5 gap-y-4'>
-                                    <div className='w-[250px] h-[200px] lg:w-[260px]  lg:h-[250px] bg-white  '>
+                                <div className='w-[280px] h-[350px] lg:w-[300px]  lg:h-[400px] bg-white border border-[#DCDCDC] rounded-xl relative flex flex-col justify-start items-center py-3 lg:pt-5 gap-y-4'>
+                                    <div className='w-[250px] h-[60%] lg:w-[260px]  lg:h-[65%] bg-white  '>
                                         <Image
-                                            className="w-full  h-full object-cover object-right-top  "
+                                            className="w-full   h-full object-cover object-right-top  "
                                             width={400}
                                             height={400}
                                             src={member.img}
                                             alt="student Img" />
                                     </div>
-                                    <div className='flex flex-col gap-y-2 items-center'>
-                                        <div className='text-lg font-[700]  text-[#282828] '>
-                                            {member.Name}
+                                    <div className='w-full h-[30%]  flex flex-col gap-y-4'>
+                                        <div className='w-full  flex flex-col gap-y-2 items-center '>
+                                            <div className='text-lg font-[700]  text-[#282828] '>
+                                                {member.Name}
+                                            </div>
+                                            <div className='text-xs leading-3 font-[400]  text-[#232D63]  px-2'>
+                                                {member.position}
+                                            </div>
                                         </div>
-                                        <div className='text-xs leading-3 font-[400]  text-[#232D63]  px-2'>
-                                            {member.position}
+                                        <div className='w-full flex justify-center items-center gap-x-4 '>
+                                            <div className='bg-[#0057e2] p-2 rounded-full'>
+                                                <FaXTwitter className='text-white' />
+                                            </div>
+                                            <div className='bg-[#0057e2] p-2 rounded-full'>
+                                                <AiOutlineLinkedin className='text-white' />
+                                            </div>
+                                            <div className='bg-[#0057e2] p-2 rounded-full'>
+                                                <GoMail className='text-white' />
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className='w-full flex justify-center items-center gap-x-4 '>
-                                        <div className='bg-[#0057e2] p-2 rounded-full'>
-                                            <FaXTwitter  className='text-white'/>
-                                        </div>
-                                        <div className='bg-[#0057e2] p-2 rounded-full'>
-                                            <AiOutlineLinkedin className='text-white' />
-                                        </div>
-                                        <div className='bg-[#0057e2] p-2 rounded-full'>
-                                            <GoMail className='text-white' />
-                                        </div>
-                                    </div>
+                                    
                                 </div>
 
                             </SwiperSlide>
