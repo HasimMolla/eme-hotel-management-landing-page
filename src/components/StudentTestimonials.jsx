@@ -11,6 +11,8 @@ import Image from 'next/image'
 import SoumyaRanjan from '../../public/assets/images/SoumyaRanjan.webp'
 import RahulSingh from '../../public/assets/images/RahulSingh.webp'
 import AitrikBanerjee from '../../public/assets/images/AitrikBanerjee.webp'
+import { ChevronLeft } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 export const StudentTetimonials = () => {
     const TestimonialsData = [
@@ -78,11 +80,11 @@ export const StudentTetimonials = () => {
     };
     return (
         <div id='testimonials' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-5 md:pt-10 px-5 md:px-24'>
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
+            <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
                 <div><span className="text-[#E87D1A]">S</span>tudents</div>
-                <div className=" text-[#042A76] lg:leading-10 lg:text-5xl  font-bold  ">
+                <div className=" text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold  ">
                     Testimonials
-                    <span> <svg xmlns="http://www.w3.org/2000/svg" width="261" height="9" viewBox="0 0 261 9" fill="none">
+                    <span> <svg className='w-[176px] md:w-[261px]' xmlns="http://www.w3.org/2000/svg" width="261" height="9" viewBox="0 0 261 9" fill="none">
                         <path d="M0.905273 7.30273C72.2649 -0.374194 171.045 -1.01398 260.905 7.30273" stroke="#E87D1A" stroke-width="2.24694" />
                     </svg></span>
                 </div>

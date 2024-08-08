@@ -4,7 +4,7 @@ function CareerProspect() {
     const careerContent = ['Hotel Manager', 'Front Office Manager', 'Banquet Manager', 'Floor Supervisors', 'Steward', 'Food and Beverage Manager','Restaurant and Food Service Manager']
   return (
       <div className='w-full   flex justify-between  items-center pt-10 '>
-          <svg xmlns="http://www.w3.org/2000/svg" width="261" height="315" viewBox="0 0 261 315" fill="none">
+          <svg className='hidden md:inline' xmlns="http://www.w3.org/2000/svg" width="261" height="315" viewBox="0 0 261 315" fill="none">
               <path d="M1.47464 1.37993L0.737322 1.48888e-05L0 1.37993L0.737322 2.75985L1.47464 1.37993Z" fill="#0057E2" />
               <path d="M10.7434 1.37993L10.0061 1.48888e-05L9.26876 1.37993L10.0061 2.75985L10.7434 1.37993Z" fill="#0057E2" />
               <path d="M20.0121 1.37993L19.2747 1.48888e-05L18.5374 1.37993L19.2747 2.75985L20.0121 1.37993Z" fill="#0057E2" />
@@ -730,11 +730,16 @@ function CareerProspect() {
           </svg>
           <div className='w-full max-w-[1380px] flex flex-col gap-y-5'>
               <div className="flex  items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
-                  <div><span className="text-[#E87D1A]">C</span>areer Prospect</div>
-                  <div className=" text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
+                  <div><span className="text-[#E87D1A]">C</span>areer Prospect
+                      <span>
+                          <svg className='w-[150px] md:w-[386px]' xmlns="http://www.w3.org/2000/svg" width="386" height="9" viewBox="0 0 386 9" fill="none">
+                              <path d="M0.40625 7.68164C106.073 0.00471247 252.344 -0.63507 385.406 7.68164" stroke="#E87D1A" stroke-width="2.24694" />
+                          </svg>
+                      </span></div>
+                  <div className="hidden md:inline text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
                      After This Course
                       <span>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="386" height="9" viewBox="0 0 386 9" fill="none">
+                          <svg className='w-[129px] md:w-[386px]' xmlns="http://www.w3.org/2000/svg" width="386" height="9" viewBox="0 0 386 9" fill="none">
                               <path d="M0.40625 7.68164C106.073 0.00471247 252.344 -0.63507 385.406 7.68164" stroke="#E87D1A" stroke-width="2.24694" />
                           </svg>
                       </span>
@@ -751,7 +756,7 @@ function CareerProspect() {
               </div>
           </div>
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="261" height="315" viewBox="0 0 261 315" fill="none">
+          <svg className='hidden md:inline' xmlns="http://www.w3.org/2000/svg" width="261" height="315" viewBox="0 0 261 315" fill="none">
               <path d="M1.47464 1.37993L0.737322 1.48888e-05L0 1.37993L0.737322 2.75985L1.47464 1.37993Z" fill="#0057E2" />
               <path d="M10.7434 1.37993L10.0061 1.48888e-05L9.26876 1.37993L10.0061 2.75985L10.7434 1.37993Z" fill="#0057E2" />
               <path d="M20.0121 1.37993L19.2747 1.48888e-05L18.5374 1.37993L19.2747 2.75985L20.0121 1.37993Z" fill="#0057E2" />
