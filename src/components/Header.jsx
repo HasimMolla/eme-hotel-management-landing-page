@@ -45,7 +45,7 @@ export default function Header() {
     };
 
     return (
-        <div className={color ? 'fixed top-0   transition-all backdrop-blur-md w-full z-[99] bg-black/5 drop-shadow-2xl  py-[10px] pb-5 lg:py-2  animate-fade-in-down ' : 'fixed top-0  w-full z-[99]  bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% transition-all  py-[10px] pb-5 lg:py-2 2xl:py-2 '}>
+        <div className={color ? 'fixed top-0   transition-all backdrop-blur-md w-full z-[99] bg-black/5 drop-shadow-2xl  py-[10px]  lg:py-2  animate-fade-in-down ' : 'fixed top-0  w-full z-[99]  bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% transition-all  py-[10px]  lg:py-2 2xl:py-2 '}>
             <AdmissionModal {..._this} />
             <div
                 className='   flex items-center justify-between max-w-[1380px] mx-auto px-[20px] lg:px-24 '>
@@ -57,7 +57,7 @@ export default function Header() {
                         duration={1000}
                         className='z-[30]'>
                         <Image
-                            className=" w-20 md:w-24  lg:w-[130px]   "
+                            className=" w-[130px]   "
                             width={150}
                             height={150}
                             src={MainLogo}
@@ -72,15 +72,15 @@ export default function Header() {
                     className="hamburger flex lg:hidden flex-col justify-center items-center gap-[5px] bg-transparent z-[30] focus:outline-none"
                     onClick={toggleMenu}>
                     <span
-                        className={`block bg-white h-[2px] w-[25px] rounded-md origin-left transition-all
+                        className={`block bg-[#252C65] h-[2px] w-[25px] rounded-md origin-left transition-all
           ${isOpen ? 'rotate-45 opacity-1' : ''}`}>
                     </span>
                     <span
-                        className={`block bg-white h-[2px]  w-[25px] rounded-md origin-center transition-all 
+                        className={`block bg-[#252C65] h-[2px]  w-[25px] rounded-md origin-center transition-all 
           ${isOpen ? 'opacity-0 mb-[4px]' : ''}`}>
                     </span>
                     <span
-                        className={`block bg-white h-[2px] w-[25px] rounded-md origin-left transition-all ${isOpen ? '-rotate-[45deg] opacity-1' : ''}`}></span>
+                        className={`block bg-[#252C65] h-[2px] w-[25px] rounded-md origin-left transition-all ${isOpen ? '-rotate-[45deg] opacity-1' : ''}`}></span>
 
                 </button>
 
@@ -91,8 +91,8 @@ export default function Header() {
 
                 <div
                     className={isOpen ?
-                        ' flex lg:hidden flex-col items-start gap-[15px] text-[18px] font-[500] absolute pt-[120px] top-[0px] left-0 w-full h-screen  px-[20px] py-[10px] bg-[#070B23] animate-fade-in-left z-[28] transition-all' :
-                        'hidden lg:flex flex-row items-center justify-center gap-[36px] lg:text-[15px] 2xl:text-[18px] text-[#191919] font-[400] 2xl:font-[400] '}>
+                        ' flex lg:hidden flex-col items-start gap-[15px] text-[18px] font-[500] absolute pt-[120px] top-[0px] left-0 w-full h-screen  px-[20px] py-[10px] bg-black/5 backdrop-blur-md animate-fade-in-left z-[28] transition-all' :
+                        'hidden lg:flex flex-row items-center justify-center gap-[36px] lg:text-[15px] 2xl:text-[18px]  text-[#191919] font-[400] 2xl:font-[400] '}>
                     <Link to="whyEME"
                         spy={true}
                         smooth={true}

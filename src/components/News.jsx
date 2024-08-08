@@ -63,12 +63,12 @@ export const News = () => {
 
         300: {
             slidesPerView: 1,
-            spaceBetween: 40
+            spaceBetween: 20
         },
 
         370: {
             slidesPerView: 1,
-            spaceBetween: 40
+            spaceBetween: 20
         },
 
 
@@ -101,19 +101,19 @@ export const News = () => {
     };
     return (
         <div id='news' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center py-10 px-5 md:px-10 '>
-            <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-[24px] leading-8 lg:leading-10 lg:text-5xl  font-bold ">
+            <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
                 <div>In The</div>
-                <div className=" text-[#2251FF] lg:leading-10 lg:text-5xl  font-bold ">
+                <div className=" text-[#042A76] lg:leading-10 lg:text-5xl  font-bold ">
                     <span className="text-[#E87D1A]">N</span>ews
                     <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="158" height="9" viewBox="0 0 158 9" fill="none">
+                        <svg className='w-[115px] md:w-[158px]' xmlns="http://www.w3.org/2000/svg" width="158" height="9" viewBox="0 0 158 9" fill="none">
                             <path d="M0.905273 7.68164C43.721 0.00471247 102.989 -0.63507 156.905 7.68164" stroke="#E87D1A" stroke-width="2.24694" />
                         </svg>
                     </span>
                 </div>
             </div>
-            <div className='w-full flex  justify-center items-center   gap-x-5   '>
-                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-3 cursor-pointer ">
+            <div className='w-full flex  justify-center items-center gap-x-3  md:gap-x-5   '>
+                <button className="swiper-button-next-custom bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 md:p-3 cursor-pointer ">
                     <ChevronLeft className='text-[#2251FF] ' />
                 </button>
                 <Swiper
@@ -140,7 +140,7 @@ export const News = () => {
 
                             <SwiperSlide key={data.id} className='swiper-zoom-container my-10  shadow-lg  rounded-xl'>
 
-                                <a className="flex flex-col items-center justify-start  w-[280px] h-[280px] lg:w-[270px] lg:h-[320px]  rounded-xl  p-3 bg-white    " href={data.link} target='_blank'>
+                                <a className="flex flex-col items-center justify-start  w-[280px] h-[320px] lg:w-[270px] lg:h-[320px]  rounded-xl  p-3 bg-white    " href={data.link} target='_blank'>
                                     <Image
                                         className="w-full  h-[250px] object-cover object-center  "
                                         width={500}
@@ -161,7 +161,7 @@ export const News = () => {
                     }
 
                 </Swiper>
-                <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center p-3 cursor-pointer group hover:drop-shadow-lg border">
+                <button className="swiper-button-prev-custom bg-white drop-shadow-md  rounded-full flex justify-center items-center p-2 md:p-3 cursor-pointer group hover:drop-shadow-lg border">
                     <ChevronRight className='text-[#2251FF] ' />
                 </button>
                 

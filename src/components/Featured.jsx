@@ -2,7 +2,7 @@
 
 function Featured() {
   return (
-      <div className="w-full h-auto border max-w-[1380px] mx-auto  py-5 md:py-[70px]  px-[20px] md:px-24 ">
+      <div className="w-full h-auto  max-w-[1380px] mx-auto  py-5 md:py-[70px]  px-[20px] md:px-24 ">
           <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 md:gap-[40px] ">
               <div className="w-full md:w-1/2  flex gap-x-2 text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold  justify-center md:justify-start">
                   <div><span className="text-[#E87D1A]">F</span>eatured
@@ -15,7 +15,7 @@ function Featured() {
 
 
               </div>
-              <div className="w-full md:w-1/2 text-base font-medium">
+              <div className="w-full md:w-1/2 text-base text-center md:text-start font-medium">
                   We take pride in our exceptional achievements and high student success rate. Check out our achievements below.
               </div>
           </div>
