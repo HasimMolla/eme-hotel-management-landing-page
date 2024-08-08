@@ -79,7 +79,7 @@ export const StudentTetimonials = () => {
 
     };
     return (
-        <div id='testimonials' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-5 md:pt-10 px-5 md:px-24'>
+        <div id='testimonials' className='w-full  max-w-[1380px] mx-auto flex flex-col items-center pt-5 md:pt-10 px-5 md:px-10'>
             <div className="flex flex-row items-center justify-center gap-x-2 text-[#2251FF] text-3xl lg:leading-10 lg:text-5xl  font-bold ">
                 <div><span className="text-[#E87D1A]">S</span>tudents</div>
                 <div className=" text-[#042A76] text-3xl lg:leading-10 lg:text-5xl  font-bold  ">
@@ -90,6 +90,11 @@ export const StudentTetimonials = () => {
                 </div>
             </div>
             <div className='w-full flex justify-center items-center gap-[30px] pt-10 md:pt-14'>
+
+                <button className="swiper-button-prev-custom-course bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer ">
+                    <ChevronLeft className='text-[#2251FF] ' />
+                </button>
+
                 <Swiper
                     zoom={true}
                     //   centeredSlides={true}
@@ -99,6 +104,10 @@ export const StudentTetimonials = () => {
                     }}
                     loop={true}
                     breakpoints={breakpoints}
+                    navigation={{
+                        nextEl: '.swiper-button-next-custom-course',
+                        prevEl: '.swiper-button-prev-custom-course',
+                    }}
                     grabCursor={true}
                     modules={[Autoplay, Zoom, Navigation]}
                     className="mySwiper w-full  flex  items-center justify-center   mx-auto"
@@ -106,7 +115,7 @@ export const StudentTetimonials = () => {
                     {
                         TestimonialsData.map((data) => (
                             <SwiperSlide key={data.key} className='swiper-zoom-container'>
-                                <div className='flex flex-col items-center justify-center w-[250px] h-[350px] lg:w-[350px] lg:h-[450px] rounded-md overflow-hidden relative'>
+                                <div className='flex flex-col items-center justify-center w-[250px] h-[350px] lg:w-[350px] lg:h-[400px] rounded-md overflow-hidden relative'>
                                     <Image
                                         className="w-full  h-full object-cover object-center "
                                         width={500}
@@ -135,6 +144,10 @@ export const StudentTetimonials = () => {
                     }
 
                 </Swiper>
+
+                <button className="swiper-button-next-custom-course bg-white drop-shadow-md  rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer group hover:drop-shadow-lg border">
+                    <ChevronRight className='text-[#2251FF] ' />
+                </button>
 
 
             </div>

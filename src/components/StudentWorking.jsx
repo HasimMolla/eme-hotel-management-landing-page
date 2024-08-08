@@ -18,8 +18,8 @@ function StudentWorking() {
                 </div>
             </div>
             <div className='w-full md:w-[80%]  '>
-                <Marquee speed={20}>
-                    <div className=' flex items-center justify-center gap-x-8 mx-5'>
+                <Marquee speed={20} autoFill>
+                    <div className=' flex items-center justify-center gap-x-5 mx-5'>
                         <Image
                         className='company-img'
                             width={100}

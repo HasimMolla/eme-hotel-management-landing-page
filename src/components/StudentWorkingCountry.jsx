@@ -7,7 +7,7 @@ function StudentWorkingCountry() {
               <div className="text-nowrap">
               Our students are present across the <span className="text-[#FF9A3A]">globe</span>  :
           </div>
-          <Marquee>
+          <Marquee autoFill>
               <div className="text-nowrap tracking-wider font-medium">
                   USA, Italy, Malaysia, Thailand, United Arab Emirates, Saudi Arabia, Qatar, New Zealand, Canada, Maldives, Australia, United Kingdom, Singapore,  Germany, Croatia, Japan  - Try to fit these countries somewhere
               </div>

@@ -4,8 +4,8 @@ function InfiniteCall() {
   return (
       
           <div className="w-full  pt-[80px] lg:pt-[80px]  ">
-              <div className="bg-[#00A2E7] py-2 flex justify-center gap-x-10 md:gap-x-24 text-white text-sm leading-4">
-              <Marquee speed={20}>
+              <div className="bg-[#00A2E7] py-2 flex justify-center gap-x-10 md:gap-x-24 text-white whitespace-nowrap text-sm leading-4">
+              <Marquee speed={20} autoFill>
                   <div>✦</div>
                   <div className="flex items-center mx-10 md:mx-24">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
