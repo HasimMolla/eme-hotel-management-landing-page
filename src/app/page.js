@@ -57,7 +57,7 @@ export default function Home() {
       <div className="flex w-full  bg-white">
         <Awards />
       </div>
-      <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+      <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
         <News />
       </div>
       <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
@@ -69,7 +69,7 @@ export default function Home() {
       </div>
 
       <div className="flex  w-full  bg-[#fff] ">
-        <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-start gap-[40px] py-[70px]  px-[10px] md:px-10 ">
+        <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-start gap-[40px] py-10  px-[10px] md:px-10 ">
           <div className="w-full flex flex-col justify-center items-center gap-[20px]">
             <div className="flex flex-row items-center justify-center gap-x-2 text-[#042A76] text-3xl leading-10 lg:text-5xl  font-bold ">
               <div>What Our</div>

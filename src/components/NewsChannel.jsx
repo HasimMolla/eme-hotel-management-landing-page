@@ -11,9 +11,9 @@ import Marquee from 'react-fast-marquee'
 function NewsChannel() {
   return (
       <div className="w-full  max-w-[1380px] mx-auto flex items-center justify-center      px-[20px] md:px-24 ">
-          <div className='w-full '>
-              <Marquee>
-                  <div className='w-ful flex items-center justify-center  gap-x-12'>
+          <div className='w-full  '>
+              <Marquee autoFill>
+                  <div className='w-ful flex items-center justify-center  gap-x-12 mx-10'>
 
                       <Image
                           width={100}
