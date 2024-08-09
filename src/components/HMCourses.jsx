@@ -31,6 +31,56 @@ export default function HMCourses() {
         Courses,
         email_sender,
     };
+
+    const AllHMCourses = [
+        {
+            name: 'Hotel Management Certificate',
+            id: 1,
+            assistance: "‘0’cost EMI available",
+            decsOne: '80% Students Hired by 5 star Organisations',
+            decsTwo: '100% Placement Support',
+            decsThree: '2000+ Successful Students',
+            src: courseOne
+        },
+        {
+            name: 'Hotel Management Diploma (1 Year) ',
+            id: 2,
+            assistance: "Latest Study Materials",
+            decsOne: '80% Students Hired by 5 star Organisations',
+            decsTwo: '100% Placement Support',
+            decsThree: '2000+ Successful Students',
+            src: courseTwo
+        },
+        {
+            name: 'Hotel Management Diploma (2 Years)',
+            id: 3,
+            assistance: "Continuous Evaluation",
+            decsOne: '80% Students Hired by 5 star Organisations',
+            decsTwo: '100% Placement Support',
+            decsThree: '2000+ Successful Students',
+            src: courseThree
+        },
+        {
+            name: 'BSc Hotel and Hospitality Management ',
+            id: 4,
+            assistance: "100+ Hiring Partners",
+            decsOne: '80% Students Hired by 5 star Organisations',
+            decsTwo: '100% Placement Support',
+            decsThree: '2000+ Successful Students',
+            src: courseFour
+        },
+        {
+            name: 'MSc Hotel and Hospitality Management ',
+            id: 5,
+            assistance: "Latest Study Materials",
+            decsOne: '80% Students Hired by 5 star Organisations',
+            decsTwo: '100% Placement Support',
+            decsThree: '2000+ Successful Students',
+            src: courseFive
+        },
+        
+
+    ]
     const HMCourses = [
         {
             name: 'Hotel Management Certificate',
@@ -171,7 +221,7 @@ export default function HMCourses() {
                         className="mySwiper w-full  flex  items-center justify-center   mx-auto"
                     >
                         {
-                            HMCourses.map((course) => (
+                            AllHMCourses.map((course) => (
                                 <SwiperSlide key={course.id} className='swiper-zoom-container'>
                                     <div className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white '>
                                         <Image className='w-full h-[170px] object-cover object-right-top'
