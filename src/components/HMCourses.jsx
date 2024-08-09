@@ -279,7 +279,7 @@ export default function HMCourses() {
                                                 </div>
                                             </div>
 
-                                            <div className='w-28 capitalize text-sm bg-[#0057E2] rounded-sm px-5 py-2 text-white'>
+                                            <div className='w-28 capitalize text-sm bg-[#0057E2] rounded-sm px-5 py-2 text-white' onClick={() => { _this?.setIsModalOpen(true) }}>
                                                 enroll now
                                             </div>
                                         </div>
