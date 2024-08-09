@@ -139,17 +139,17 @@ export default function HMStudentTestimonials() {
                                     </div>
 
                                 </div>
-                                <div className='flex flex-col h-[200px]  items-start'>
-                                    <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
+                                <div className='flex flex-col h-[150px] lg:h-[200px]  items-start'>
+                                    <div className='text-[#0057E2] leading-8 text-6xl lg:leading-10 lg:text-[75px]  font-[400] border'>“</div>
                                     <div className='text-[#191919] text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Many thanks to EME Academy. Best college for hotel management. I got the same support as they said they would help me to get a job when I was admitted. Now I am currently working in the GRAND HYATT GOA AS A Hotel Receptionist.
                                     </div>
                                 </div>
-                                <div className='w-full flex items-center justify-between '>
+                                <div className='w-full flex items-center justify-between pt-2'>
                                     <div className=' flex gap-[10px] justify-start'>
                                         <div className='w-[2px] h-[45px] bg-[#0f0f0f33]'></div>
                                         <div>
-                                            <div className='text-[#000]  text-[17px] text-start font-[400] leading-6 '>
+                                            <div className='text-[#000] text-[15px]  lg:text-[17px] text-start font-[400] leading-6 '>
                                                 Sunanda Sarkar
                                             </div>
                                             <div className='text-[#191919] text-start text-[12px]  font-[400] leading-5'>
