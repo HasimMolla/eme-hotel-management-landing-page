@@ -18,6 +18,7 @@ import newsThree from '../../public/assets/images/newsThree.webp'
 import newsFour from '../../public/assets/images/newsFour.webp'
 import TAASIRHOWRAH from '../../public/assets/images/TAASIRHOWRAH.jpg'
 import taasirNews from '../../public/assets/images/taasirNews.png'
+import CTAButton from './CTAButton';
 
 
 export const News = () => {
@@ -168,6 +169,9 @@ export const News = () => {
 
 
 
+            </div>
+            <div>
+                <CTAButton/>
             </div>
 
         </div>

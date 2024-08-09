@@ -1,4 +1,5 @@
 import React from 'react'
+import CTAButton from './CTAButton'
 
 function CareerProspect() {
     const careerContent = ['Hotel Manager', 'Front Office Manager', 'Banquet Manager', 'Floor Supervisors', 'Steward', 'Food and Beverage Manager','Restaurant and Food Service Manager']
@@ -753,6 +754,9 @@ function CareerProspect() {
                           </div>
                       </div>
                   ))}
+              </div>
+              <div>
+                  <CTAButton/>
               </div>
           </div>
 
