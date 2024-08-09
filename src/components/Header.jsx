@@ -91,7 +91,7 @@ export default function Header() {
 
                 <div
                     className={isOpen ?
-                        ' flex lg:hidden flex-col items-start gap-[15px] text-[18px] font-[500] absolute pt-[120px] top-[0px] left-0 w-full h-screen  px-[20px] py-[10px] bg-black/5 backdrop-blur-md animate-fade-in-left z-[28] transition-all ' :
+                        ' flex lg:hidden flex-col items-start gap-[15px] text-[18px] font-[500] absolute pt-[120px] top-[0px] left-0 w-full h-screen  px-6 py-[10px] bg-white  backdrop-blur-3xl animate-fade-in-left z-[28] transition-all ' :
                         'hidden lg:flex flex-row items-center justify-center gap-[36px] lg:text-[15px] 2xl:text-[18px]  text-[#191919] font-[400] 2xl:font-[400]  '}>
                     <Link to="whyEME"
                         spy={true}
