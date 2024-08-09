@@ -36,7 +36,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Certificate',
             id: 1,
-            assistance: "‘0’cost EMI available",
+            assistance: <div><span className='font-bold'>‘0’</span> cost EMI available</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -45,7 +45,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Diploma (1 Year) ',
             id: 2,
-            assistance: "Latest Study Materials",
+            assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -54,7 +54,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Diploma (2 Years)',
             id: 3,
-            assistance: "Continuous Evaluation",
+            assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -63,7 +63,7 @@ export default function HMCourses() {
         {
             name: 'BSc Hotel and Hospitality Management ',
             id: 4,
-            assistance: "100+ Hiring Partners",
+            assistance: <div><span className='font-bold'>100+</span> Hiring Partners</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -72,7 +72,7 @@ export default function HMCourses() {
         {
             name: 'MSc Hotel and Hospitality Management ',
             id: 5,
-            assistance: "Latest Study Materials",
+            assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -85,7 +85,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Certificate',
             id: 1,
-            assistance: "‘0’cost EMI available",
+            assistance: <div><span className='font-bold'>‘0’</span>cost EMI available</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -94,7 +94,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Diploma (1 Year) ',
             id: 2,
-            assistance: "Latest Study Materials",
+            assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -103,7 +103,7 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Diploma (2 Years)',
             id: 3,
-            assistance: "Continuous Evaluation",
+            assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -117,7 +117,7 @@ export default function HMCourses() {
         {
             name: 'BSc Hotel and Hospitality Management ',
             id: 4,
-            assistance: "100+ Hiring Partners",
+            assistance: <div><span className='font-bold'>100+</span> Hiring Partners</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
@@ -126,7 +126,7 @@ export default function HMCourses() {
         {
             name: 'MSc Hotel and Hospitality Management ',
             id: 5,
-            assistance: "Latest Study Materials",
+            assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
