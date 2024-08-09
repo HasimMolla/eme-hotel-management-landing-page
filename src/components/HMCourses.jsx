@@ -212,6 +212,7 @@ export default function HMCourses() {
                             enabled: true,
                         }}
                         zoom={true}
+                        loop={true}
                         grabCursor={true}
                         navigation={{
                             nextEl: '.swiper-button-next-custom-course',
