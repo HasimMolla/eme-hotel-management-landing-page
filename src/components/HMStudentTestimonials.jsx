@@ -141,7 +141,7 @@ export default function HMStudentTestimonials() {
                                 </div>
                                 <div className='flex flex-col h-[200px]  items-start'>
                                     <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
-                                    <div className='text-[#191919]  text-[15px]  font-[400] leading-5 text-start'>
+                                    <div className='text-[#191919] text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Many thanks to EME Academy. Best college for hotel management. I got the same support as they said they would help me to get a job when I was admitted. Now I am currently working in the GRAND HYATT GOA AS A Hotel Receptionist.
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@ export default function HMStudentTestimonials() {
                                 </div>
                                 <div className='flex flex-col h-[200px]  items-start'>
                                     <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
-                                    <div className='text-[#191919]  text-[15px]  font-[400] leading-5 text-start'>
+                                    <div className='text-[#191919]  text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Love this institution very much.I got my education from here and it&apos;s really feels like my another family... really love it..
                                     </div>
                                 </div>
@@ -282,7 +282,7 @@ export default function HMStudentTestimonials() {
                                 </div>
                                 <div className='flex flex-col h-[200px]  items-start'>
                                     <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
-                                    <div className='text-[#191919]  text-[15px]  font-[400] leading-5 text-start'>
+                                    <div className='text-[#191919]  text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Love this institution very much.I got my education from here and it&apos;s really feels like my another family... really love it..
                                     </div>
                                 </div>
@@ -352,7 +352,7 @@ export default function HMStudentTestimonials() {
                                 </div>
                                 <div className='flex flex-col h-[200px]  items-start'>
                                     <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
-                                    <div className='text-[#191919]  text-[15px]  font-[400] leading-5 text-start'>
+                                    <div className='text-[#191919]  text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Love this institution very much.I got my education from here and it&apos;s really feels like my another family... really love it..
                                     </div>
                                 </div>
