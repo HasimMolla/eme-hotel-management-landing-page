@@ -45,7 +45,7 @@ export default function Header() {
     };
 
     return (
-        <div className={color ? 'fixed top-0   transition-all backdrop-blur-md w-full z-[99] bg-black/5 drop-shadow-2xl  py-1  lg:py-2  animate-fade-in-down  border' : 'fixed top-0  w-full z-[99]  bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% transition-all  py-1  lg:py-2 2xl:py-2 '}>
+        <div className={color ? 'fixed top-0   transition-all backdrop-blur-md w-full z-[99] bg-black/5 drop-shadow-2xl  py-1  lg:py-2  animate-fade-in-down  ' : 'fixed top-0  w-full z-[99]  bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% transition-all  py-1  lg:py-2 2xl:py-2 '}>
             <AdmissionModal {..._this} />
             <div
                 className='   flex items-center justify-between max-w-[1380px] mx-auto px-[20px] lg:px-24 '>

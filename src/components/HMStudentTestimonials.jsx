@@ -95,7 +95,7 @@ export default function HMStudentTestimonials() {
 
 
                         <SwiperSlide className='py-[20px] swiper-zoom-container'>
-                            <div className="w-[300px] md:max-w-[350px] h-[400px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
+                            <div className="w-[300px] md:max-w-[350px] h-[400px] lg:h-[420px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
                                 <div className="w-full flex justify-between">
                                     <div className=' w-[60px] h-[60px] rounded-full overflow-hidden'>
                                         <Image
@@ -140,7 +140,7 @@ export default function HMStudentTestimonials() {
 
                                 </div>
                                 <div className='flex flex-col h-[150px] lg:h-[200px]  items-start'>
-                                    <div className='text-[#0057E2] leading-8 text-6xl lg:leading-10 lg:text-[75px]  font-[400] border'>“</div>
+                                    <div className='text-[#0057E2] leading-8 text-6xl lg:leading-10 lg:text-[75px]  font-[400] '>“</div>
                                     <div className='text-[#191919] text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Many thanks to EME Academy. Best college for hotel management. I got the same support as they said they would help me to get a job when I was admitted. Now I am currently working in the GRAND HYATT GOA AS A Hotel Receptionist.
                                     </div>
@@ -166,7 +166,7 @@ export default function HMStudentTestimonials() {
                         </SwiperSlide>
 
                         <SwiperSlide className='py-[20px] swiper-zoom-container'>
-                            <div className="w-[300px] md:max-w-[350px] h-[400px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
+                            <div className="w-[300px] md:max-w-[350px] h-[400px] lg:h-[420px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
                                 <div className="w-full flex justify-between">
                                     <div className=' w-[60px] h-[60px] rounded-full overflow-hidden'>
                                         <Image
@@ -211,7 +211,7 @@ export default function HMStudentTestimonials() {
 
                                 </div>
                                 <div className='flex flex-col h-[200px]  items-start'>
-                                    <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
+                                    <div className='text-[#0057E2] leading-8 text-6xl lg:leading-10 lg:text-[75px]  font-[400]'>“</div>
                                     <div className='text-[#191919]  text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Love this institution very much.I got my education from here and it&apos;s really feels like my another family... really love it..
                                     </div>
@@ -236,7 +236,7 @@ export default function HMStudentTestimonials() {
                         </SwiperSlide>
 
                         <SwiperSlide className='py-[20px] swiper-zoom-container'>
-                            <div className="w-[300px] md:max-w-[350px] h-[400px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
+                            <div className="w-[300px] md:max-w-[350px] h-[400px] lg:h-[420px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
                                 <div className="w-full flex justify-between">
                                     <div className=' w-[60px] h-[60px] rounded-full overflow-hidden'>
                                         <Image
@@ -306,7 +306,7 @@ export default function HMStudentTestimonials() {
                         </SwiperSlide>
 
                         <SwiperSlide className='py-[20px] swiper-zoom-container'>
-                            <div className="w-[300px] md:max-w-[350px] h-[400px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
+                            <div className="w-[300px] md:max-w-[350px] h-[400px] lg:h-[420px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
                                 <div className="w-full flex justify-between">
                                     <div className=' w-[60px] h-[60px] rounded-full overflow-hidden'>
                                         <Image
@@ -351,7 +351,7 @@ export default function HMStudentTestimonials() {
 
                                 </div>
                                 <div className='flex flex-col h-[200px]  items-start'>
-                                    <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
+                                    <div className='text-[#0057E2] leading-8 text-6xl lg:leading-10 lg:text-[75px]  font-[400]'>“</div>
                                     <div className='text-[#191919]  text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Love this institution very much.I got my education from here and it&apos;s really feels like my another family... really love it..
                                     </div>
