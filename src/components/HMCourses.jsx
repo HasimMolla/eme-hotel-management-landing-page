@@ -224,15 +224,21 @@ export default function HMCourses() {
                             AllHMCourses.map((course) => (
                                 <SwiperSlide key={course.id} className='swiper-zoom-container'>
                                     <div className='w-[300px] lg:w-[320px] lg:min-h-[380px] border rounded-lg overflow-hidden bg-white '>
-                                        <Image className='w-full h-[170px] object-cover object-right-top'
-                                            width={200}
-                                            height={200}
-                                            src={course.src}
-                                            alt='course Image'
+                                        <div className='relative'>
+                                            <Image className='w-full h-[170px] object-cover object-right-top'
+                                                width={200}
+                                                height={200}
+                                                src={course.src}
+                                                alt='course Image'
 
-                                        />
+                                            />
 
-                                        <div className='w-full px-3 py-4 flex flex-col gap-y-4'>
+                                            <div className='absolute right-0  -bottom-5 bg-[#FAFAFA] rounded-2xl px-3 py-2 text-xs text-center leading-4 border'>
+                                                {course.assistance}
+                                            </div>
+                                        </div>
+
+                                        <div className='w-full px-3 py-4 flex flex-col gap-y-4 mt-4'>
                                             <div className='text-[#232D63] font-bold text-sm lg:text-base'>
                                                 {course.name}
                                             </div>
