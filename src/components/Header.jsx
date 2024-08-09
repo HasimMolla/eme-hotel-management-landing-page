@@ -45,7 +45,7 @@ export default function Header() {
     };
 
     return (
-        <div className={color ? 'fixed top-0   transition-all backdrop-blur-md w-full z-[99] bg-black/5 drop-shadow-2xl  py-1  lg:py-2  animate-fade-in-down  ' : 'fixed top-0  w-full z-[99]  bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% transition-all  py-1  lg:py-2 2xl:py-2 '}>
+        <div className={color ? 'fixed top-0   transition-all backdrop-blur-md w-full z-[99] bg-black/5 drop-shadow-2xl  py-1  lg:py-2  animate-fade-in-down ' : 'fixed top-0  w-full z-[99]  bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% transition-all  py-1  lg:py-2 2xl:py-2 '}>
             <AdmissionModal {..._this} />
             <div
                 className='   flex items-center justify-between max-w-[1380px] mx-auto px-[20px] lg:px-24 '>
@@ -93,7 +93,7 @@ export default function Header() {
                     className={isOpen ?
                         ' flex lg:hidden flex-col items-start gap-[15px] text-[18px] font-[500] absolute pt-[120px] top-[0px] left-0 w-full h-screen  px-6 py-[10px] bg-white  backdrop-blur-3xl animate-fade-in-left z-[28] transition-all ' :
                         'hidden lg:flex flex-row items-center justify-center gap-[36px] lg:text-[15px] 2xl:text-[18px]  text-[#191919] font-[400] 2xl:font-[400]  '}>
-                    <Link to="whyEME"
+                    <Link to="home"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -103,7 +103,7 @@ export default function Header() {
                         Home
                     </Link>
 
-                    <Link to="testimonials"
+                    <Link to="about"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -113,7 +113,7 @@ export default function Header() {
                         About
                     </Link>
 
-                    <Link to="news"
+                    <Link to="awards"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -124,17 +124,17 @@ export default function Header() {
                     </Link>
 
 
-                    <Link to="gallery"
+                    <Link to="course"
                         spy={true}
                         smooth={true}
-                        offset={-100}
+                        offset={-50}
                         duration={1000}
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}
                         onClick={() => setIsOpen(false)}>
-                        Contact Us
+                        Courses
                     </Link>
 
-                    <Link to="podcast"
+                    <Link to="testimonials"
                         spy={true}
                         smooth={true}
                         offset={-100}

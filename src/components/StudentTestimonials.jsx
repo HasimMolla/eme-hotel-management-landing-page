@@ -89,7 +89,7 @@ export const StudentTetimonials = () => {
                     </svg></span>
                 </div>
             </div>
-            <div className='w-full flex justify-center items-center gap-[30px] pt-10 md:pt-14'>
+            <div className='w-full flex justify-center items-center gap-3 lg:gap-[30px] pt-10 md:pt-14'>
 
                 <button className="swiper-button-prev-custom-course bg-white drop-shadow-md  border rounded-full flex justify-center items-center p-2 lg:p-3 cursor-pointer ">
                     <ChevronLeft className='text-[#2251FF] ' />
@@ -122,7 +122,7 @@ export const StudentTetimonials = () => {
                                         height={500}
                                         src={data?.src}
                                         alt="student Img" />
-                                    <div className='absolute bottom-[30px]  left-[20px] flex flex-col gap-[5px] lg:gap-[10px] text-[14px] lg:text-[20px] text-start font-[400] text-[#fff] z-[21]'>
+                                    <div className='absolute bottom-5 lg:bottom-[30px] left-2 lg:left-[20px] flex flex-col gap-[5px] lg:gap-[10px] text-[14px] lg:text-[20px] text-start font-[400] text-[#fff] z-[21]'>
                                         <div>
                                             {data?.Name}
                                         </div>

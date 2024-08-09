@@ -281,7 +281,7 @@ export default function HMStudentTestimonials() {
 
                                 </div>
                                 <div className='flex flex-col h-[200px]  items-start'>
-                                    <div className='text-[#0057E2] leading-[40px] text-[75px]  font-[400]'>“</div>
+                                    <div className='text-[#0057E2] leading-8 text-6xl lg:leading-10 lg:text-[75px]  font-[400]'>“</div>
                                     <div className='text-[#191919]  text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
                                         Love this institution very much.I got my education from here and it&apos;s really feels like my another family... really love it..
                                     </div>

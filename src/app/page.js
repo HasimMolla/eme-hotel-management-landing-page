@@ -28,7 +28,7 @@ export default function Home() {
     <main className="flex flex-col justify-start items-center w-full min-h-screen bg-[#CAE5FF]">
       <Header />
 
-      <div className="w-full ">
+      <div id="home" className="w-full ">
         <InfiniteCall />
       </div>
 
@@ -1001,7 +1001,10 @@ export default function Home() {
       <div className="w-full bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100%">
         <StudentWorking />
       </div>
-      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+      <div
+        id="course"
+        className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%"
+      >
         <HMCourses />
       </div>
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
@@ -1010,16 +1013,22 @@ export default function Home() {
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
         <NewsChannel />
       </div>
-      <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">
+      <div
+        id="about"
+        className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%"
+      >
         <WhyEme />
       </div>
-      <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
+      <div
+        id="testimonials"
+        className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% "
+      >
         <StudentTetimonials />
       </div>
       <div className="flex w-full  bg-[#fff] ">
         <CareerProspect />
       </div>
-      <div className="flex w-full  bg-white">
+      <div id="awards" className="flex w-full  bg-white">
         <Awards />
       </div>
       <div className="flex w-full  bg-gradient-to-r from-[#fff] from-0% to-white to-100% ">
