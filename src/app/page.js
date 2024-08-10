@@ -39,8 +39,9 @@ export default function Home() {
       <div className="w-full">
         <StudentWorkingCountry />
       </div>
-      <div className="w-full  md:hidden bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100% flex flex-col gap-y-5  px-5 py-5">
-        <div className="  w-full  flex  flex-col justify-center items-center gap-y-3">
+      <div className="w-full  md:hidden bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100% flex flex-col gap-y-5  px-5 py-2 lg:py-5">
+
+        <div className="  w-full  flex  flex-col justify-center items-center gap-y-2 lg:gap-y-3">
           <div className="w-full  flex items-center justify-center gap-x-2">
             <div>
               <Image
@@ -58,7 +59,8 @@ export default function Home() {
 
           <div className="w-full flex items-center justify-center gap-x-5">
             <div>
-              <svg
+              <svg 
+                className="w-[80px] lg:w-[100px]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
                 height="36"
@@ -983,7 +985,7 @@ export default function Home() {
             </div>
             <div>
               <Image
-                className=""
+                className="w-[120px] lg:w-[150px]"
                 width={150}
                 height={150}
                 src={startup}
@@ -991,7 +993,7 @@ export default function Home() {
               />
             </div>
             <div>
-              <Image className="" width={70} height={70} src={iso} alt="iso" />
+              <Image className="w-[60px] lg:w-[70px]" width={70} height={70} src={iso} alt="iso" />
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import AdmissionModal from "./AdmissionModal";
 import CourseData from '@/data/course.json'
+import CTAButton from "./CTAButton";
 
 export default function WhyEme() {
    
@@ -114,6 +115,9 @@ export default function WhyEme() {
                         </p>
                     </div>
 
+                </div>
+                <div>
+                    <CTAButton/>
                 </div>
 
             </div>
