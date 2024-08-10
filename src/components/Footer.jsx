@@ -27,7 +27,7 @@ export default function Footer() {
             <div
                 className="bg-[#232D63] text-[#fff] w-full 2xl:w-[1380px] mx-auto    lg:h-auto py-[20px] px-[20px] lg:py-[60px] lg:px-24">
 
-                <div className='w-full flex flex-col lg:flex-row justify-between items-start gap-[40px] lg:gap-[100px]'>
+                <div className='w-full flex flex-col lg:flex-row justify-between items-start gap-[40px] lg:gap-10'>
                     <div className='flex flex-col justify-start items-start gap-[20px] lg:gap-[40px] '>
                         <Image
                             className=" w-[100px]  lg:w-[120px]   "
@@ -105,6 +105,7 @@ export default function Footer() {
                             </div>
                         </ul>
                     </div>
+                    
                     <div>
                         <ul className='flex flex-col   gap-[20px] lg:gap-[40px]'>
                             <li className='text-[15px] lg:text-[24px] font-[700] leading-[20px] lg:leading-[28px] text-white'>
@@ -113,8 +114,10 @@ export default function Footer() {
                             <div className='text-[13px] lg:text-[14px] font-[400] leading-[20px] lg:leading-[24px] text-white/80'>
                                 <li className='flex justify-start items-center'>
                                     {/* <img src={location_icon} alt="" /> */}
-                                    Globsyn Crystals, EP Block, Sector V, Bidhannagar,</li>
-                                <li>West Bengal,India 700091</li>
+                                    Globsyn Crystals, 5th Floor,</li>
+                                <li>TOWER-1, 505, EP Block,</li>
+                                <li> Sector V, Bidhannagar,</li>
+                                <li>West Bengal, India 700091</li>
 
 
                                 <li className='flex items-center gap-2 mt-[15px] lg:mt-[25px]'>

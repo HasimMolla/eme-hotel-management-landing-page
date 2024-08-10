@@ -63,7 +63,7 @@ export default function Header() {
                             src={MainLogo}
                             alt="EME Logo" />
                     </Link>
-                    <div className=' text-[10px]  text-[#252C65] font-bold text-nowrap'>
+                    <div className='z-[30] text-[10px]  text-[#252C65] font-bold text-nowrap'>
                         <span className='text-[#E87D1A]'>8</span> Years of Excellence
                     </div>
 
@@ -110,7 +110,7 @@ export default function Header() {
                         duration={2000}
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}
                         onClick={() => setIsOpen(false)}>
-                        About
+                        Why Us
                     </Link>
 
                     <Link to="awards"
