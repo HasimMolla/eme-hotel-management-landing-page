@@ -20,10 +20,10 @@ function StudentWorkingCountry() {
     return (
 
         <div className="w-full bg-[#232D63] py-2 flex justify-center items-center gap-x-2 lg:gap-x-4 text-white text-xs md:text-base leading-5 md:leading-6 font-bold px-2 lg:px-4 ">
-            <div className="hidden text-nowrap">
+            <div className="hidden text-nowrap lg:inline-block">
                 Our students are present across the <span className="text-[#FF9A3A]">globe</span>  :
             </div>
-            <div className=" text-nowrap">
+            <div className=" text-nowrap lg:hidden">
                 Global student <span className="text-[#FF9A3A]">presence</span>  :
             </div>
             <Marquee autoFill>
@@ -34,78 +34,78 @@ function StudentWorkingCountry() {
                 <div className="lg:hidden text-nowrap tracking-wider font-medium flex items-center gap-x-2 mx-2">
                     <div className='flex items-center gap-x-2 '>
                         <div>USA</div>
-                        <Image src={usa} />
+                        <Image src={usa} alt='usa flag'/>
                     </div>
                     <p>,</p>
 
                     <div className='flex items-center gap-x-2 '>
                         <div>Italy</div>
-                        <Image src={italy} />
+                        <Image src={italy} alt='italy flag'/>
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Malaysia</div>
-                        <Image src={Malaysia} />
+                        <Image src={Malaysia} alt='Malaysia flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Thailand</div>
-                        <Image src={Thailand} />
+                        <Image src={Thailand} alt='Thailand flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>UAE</div>
-                        <Image src={UAE} />
+                        <Image src={UAE} alt='UAE flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Saudi Arabia</div>
-                        <Image src={SaudiArabia} />
+                        <Image src={SaudiArabia} alt='SaudiArabia flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Qatar</div>
-                        <Image src={qatar} />
+                        <Image src={qatar} alt='qatar flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>New Zealand</div>
-                        <Image src={newZealand} />
+                        <Image src={newZealand} alt='newZealand flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Canada</div>
-                        <Image src={Canada} />
+                        <Image src={Canada} alt='Canada flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Maldives</div>
-                        <Image src={Maldives} />
+                        <Image src={Maldives} alt='Maldives flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Australia</div>
-                        <Image src={Australia} />
+                        <Image src={Australia} alt='Australia flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>UK</div>
-                        <Image src={UK} />
+                        <Image src={UK} alt='UK flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Singapore</div>
-                        <Image src={Singapore} />
+                        <Image src={Singapore} alt='Singapore flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Germany</div>
-                        <Image src={Germany} />
+                        <Image src={Germany} alt='Germany flag' />
                     </div>
                     <p>,</p>
                     <div className='flex items-center gap-x-2 '>
                         <div>Japan</div>
-                        <Image src={Japan} />
+                        <Image src={Japan} alt='Japan flag' />
                     </div>
                    
                     

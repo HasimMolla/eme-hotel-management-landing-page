@@ -40,7 +40,7 @@ export default function HMfaq() {
 
     ]
     return (
-        <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-center py-10 px-5 md:px-24">
+        <div className="w-full  max-w-[1380px] mx-auto flex flex-col items-center py-10 px-5 md:px-24 ">
             <div className=" flex flex-col md:flex-row items-start justify-center gap-5 md:gap-x-10">
                 <div className="w-auto flex justify-center">
                     <div className="flex flex-col items-center justify-center gap-x-2 text-[#042A76] text-5xl leading-10 lg:leading-10 lg:text-5xl  font-bold ">

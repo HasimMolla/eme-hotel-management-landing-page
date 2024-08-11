@@ -46,9 +46,9 @@ export default function HMCourses() {
             name: 'Hotel Management Diploma (1 Year) ',
             id: 2,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
+            decsOne: '78% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsThree: '1000+ Jobs Guaranteed',
             src: courseTwo
         },
         {
@@ -57,14 +57,14 @@ export default function HMCourses() {
             assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsThree: 'Get Opportunities to Work in Abroad Jobs',
             src: courseThree
         },
         {
             name: 'BSc Hotel and Hospitality Management ',
             id: 4,
             assistance: <div><span className='font-bold'>100+</span> Hiring Partners</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
+            decsOne: '78% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
             src: courseFour
@@ -74,8 +74,8 @@ export default function HMCourses() {
             id: 5,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
-            decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsTwo: '1000+ Jobs Guaranteed',
+            decsThree: 'Get Opportunities to Work in Abroad Jobs',
             src: courseFive
         },
         
@@ -95,9 +95,9 @@ export default function HMCourses() {
             name: 'Hotel Management Diploma (1 Year) ',
             id: 2,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
+            decsOne: '78% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsThree: '1000+ Jobs Guaranteed',
             src: courseTwo
         },
         {
@@ -105,8 +105,8 @@ export default function HMCourses() {
             id: 3,
             assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
-            decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsTwo: '2000+ Successful Students',
+            decsThree: 'Get Opportunities to Work in Abroad Jobs',
             src: courseThree
         },
         
@@ -118,7 +118,7 @@ export default function HMCourses() {
             name: 'BSc Hotel and Hospitality Management ',
             id: 4,
             assistance: <div><span className='font-bold'>100+</span> Hiring Partners</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
+            decsOne: '78% Students Hired by 5 star Organisations',
             decsTwo: '100% Placement Support',
             decsThree: '2000+ Successful Students',
             src: courseFour
@@ -128,8 +128,8 @@ export default function HMCourses() {
             id: 5,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '80% Students Hired by 5 star Organisations',
-            decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsTwo: '1000+ Jobs Guaranteed',
+            decsThree: 'Get Opportunities to Work in Abroad Jobs',
             src: courseFive
         },
 
