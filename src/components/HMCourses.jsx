@@ -48,7 +48,7 @@ export default function HMCourses() {
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '1 Year',
             decsTwo: '100% Placement Support',
-            decsThree: '1000+ Jobs Guaranteed',
+            decsThree: '80% Students Hired by 5 star Organisations',
             src: courseTwo
         },
         {
@@ -56,7 +56,7 @@ export default function HMCourses() {
             id: 3,
             assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
             decsOne: '2 Years',
-            decsTwo: '2000+ Successful Students',
+            decsTwo: '78% Students Hired by 5 star Organisations',
             decsThree: 'Guide Different Languages like French / English ',
             src: courseThree
         },
@@ -97,7 +97,7 @@ export default function HMCourses() {
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
             decsOne: '1 Year',
             decsTwo: '100% Placement Support',
-            decsThree: '1000+ Jobs Guaranteed',
+            decsThree: '80% Students Hired by 5 star Organisations',
             src: courseTwo
         },
         {
@@ -105,7 +105,7 @@ export default function HMCourses() {
             id: 3,
             assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
             decsOne: '2 Years',
-            decsTwo: '2000+ Successful Students',
+            decsTwo: '78% Students Hired by 5 star Organisations',
             decsThree: 'Guide Different Languages like French / English ',
             src: courseThree
         },
