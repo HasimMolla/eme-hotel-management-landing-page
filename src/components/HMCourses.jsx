@@ -262,7 +262,7 @@ export default function HMCourses() {
                                                             <path d="M11.2745 9.35605L11.7495 10.0977C11.8245 10.2144 11.9911 10.331 12.1161 10.3644L12.9661 10.581C13.4911 10.7144 13.6328 11.1644 13.2911 11.581L12.7328 12.256C12.6495 12.3644 12.5828 12.556 12.5911 12.6894L12.6411 13.5644C12.6745 14.106 12.2911 14.381 11.7911 14.181L10.9745 13.856C10.8495 13.806 10.6411 13.806 10.5161 13.856L9.69949 14.181C9.19949 14.381 8.81616 14.0977 8.84949 13.5644L8.89949 12.6894C8.90782 12.556 8.84116 12.356 8.75782 12.256L8.19949 11.581C7.85782 11.1644 7.99949 10.7144 8.52449 10.581L9.37449 10.3644C9.50782 10.331 9.67449 10.206 9.74116 10.0977L10.2162 9.35605C10.5161 8.90605 10.9828 8.90605 11.2745 9.35605Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                         </svg>
                                                     </div>
-                                                    <div className='text-xs text-[#121112] leading-3'>{course.decsTwo}</div>
+                                                    <div className='text-xs text-[#121112] leading-3 text-start'>{course.decsTwo}</div>
                                                 </div>
 
                                                 <div className='w-full flex items-center gap-x-2'>
@@ -275,7 +275,7 @@ export default function HMCourses() {
                                                             <path d="M3.43359 10.5894C5.30859 11.8727 7.42526 12.6477 9.58359 12.8894" stroke="#00A2E7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                                         </svg>
                                                     </div>
-                                                    <div className='text-xs text-[#121112] leading-3'>{course.decsThree}</div>
+                                                    <div className='text-xs text-[#121112] leading-3 text-start'>{course.decsThree}</div>
                                                 </div>
                                             </div>
 
