@@ -6,10 +6,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/zoom';
 import { Autoplay, Zoom, Navigation } from 'swiper/modules';
 import Image from 'next/image'
-import advisorOne from '../../public/assets/images/advisorOne.webp'
+import advisorOne from '../../public/assets/images/advisorOneNew.png'
 import MemberOne from '../../public/assets/images/masterFacultyTwo.png'
-import advisorTwo from '../../public/assets/images/advisorTwo.webp'
-import advisorThree from '../../public/assets/images/advisorThreeNew.webp'
+import advisorTwo from '../../public/assets/images/advisorTwo.png'
+import advisorThree from '../../public/assets/images/advisorThreeNewi.png'
 import advisorFour from '../../public/assets/images/advisorFour.png'
 import advisorSix from '../../public/assets/images/advisorSix.png'
 import advisorNine from '../../public/assets/images/advisorNine.webp'

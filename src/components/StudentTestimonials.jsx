@@ -8,9 +8,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/zoom';
 import { Autoplay, Zoom, Navigation } from 'swiper/modules';
 import Image from 'next/image'
-import SoumyaRanjan from '../../public/assets/images/SoumyaRanjan.webp'
-import RahulSingh from '../../public/assets/images/RahulSingh.webp'
-import AitrikBanerjee from '../../public/assets/images/AitrikBanerjee.webp'
+import SUTAPASARKAR from '../../public/assets/images/SUTAPASARKAR.png'
+import NASIRHASSAN from '../../public/assets/images/NASIRHASSAN.png'
+import SOMNATHPATRA from '../../public/assets/images/SOMNATHPATRA.png'
+import NURULHOSEN from '../../public/assets/images/NURULHOSEN.png'
+import RABIUSSAINI from '../../public/assets/images/RABIUSSAINI.png'
 import { ChevronLeft } from 'lucide-react';
 import { ChevronRight } from 'lucide-react';
 
@@ -18,24 +20,30 @@ export const StudentTetimonials = () => {
     const TestimonialsData = [
         {
             id: 1,
-            Name: 'Soumya Ranjan Patra',
-            src: SoumyaRanjan
+            Name: 'Sutapa Sarkar',
+            src: SUTAPASARKAR
         },
         {
             id: 2,
-            Name: 'Rahul Singh',
-            src: RahulSingh
+            Name: 'Nasir Hassan',
+            src: NASIRHASSAN
         },
         {
             id: 3,
-            Name: 'Aitrik Banerjee',
-            src: AitrikBanerjee
+            Name: 'Rabius Saini',
+            src: RABIUSSAINI
         },
         {
             id: 4,
-            Name: 'Rahul Singh',
-            src: RahulSingh
+            Name: 'Nurul Hosen',
+            src: NURULHOSEN
         },
+        {
+            id: 5,
+            Name: 'Somnath Patra',
+            src: SOMNATHPATRA
+        },
+        
 
     ]
     const breakpoints = {

@@ -36,17 +36,17 @@ export default function HMCourses() {
         {
             name: 'Hotel Management Certificate',
             id: 1,
-            assistance: <div><span className='font-bold'>‘0’</span> cost EMI available</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
-            decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            assistance: <div><span className='font-bold'>‘0’</span>cost EMI available</div>,
+            decsOne: '6 Months',
+            decsTwo: '2000+ Successful Students',
+            decsThree: 'Earn money up to 12k during course',
             src: courseOne
         },
         {
             name: 'Hotel Management Diploma (1 Year) ',
             id: 2,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
-            decsOne: '78% Students Hired by 5 star Organisations',
+            decsOne: '1 Year',
             decsTwo: '100% Placement Support',
             decsThree: '1000+ Jobs Guaranteed',
             src: courseTwo
@@ -55,25 +55,25 @@ export default function HMCourses() {
             name: 'Hotel Management Diploma (2 Years)',
             id: 3,
             assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
-            decsTwo: '100% Placement Support',
-            decsThree: 'Get Opportunities to Work in Abroad Jobs',
+            decsOne: '2 Years',
+            decsTwo: '2000+ Successful Students',
+            decsThree: 'Guide Different Languages like French / English ',
             src: courseThree
         },
         {
             name: 'BSc Hotel and Hospitality Management ',
             id: 4,
             assistance: <div><span className='font-bold'>100+</span> Hiring Partners</div>,
-            decsOne: '78% Students Hired by 5 star Organisations',
+            decsOne: '4 Years',
             decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsThree: 'Attractive Salary Packages with Fooding Facility Available',
             src: courseFour
         },
         {
             name: 'MSc Hotel and Hospitality Management ',
             id: 5,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
+            decsOne: '2 Years',
             decsTwo: '1000+ Jobs Guaranteed',
             decsThree: 'Get Opportunities to Work in Abroad Jobs',
             src: courseFive
@@ -86,16 +86,16 @@ export default function HMCourses() {
             name: 'Hotel Management Certificate',
             id: 1,
             assistance: <div><span className='font-bold'>‘0’</span>cost EMI available</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
-            decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsOne: '6 Months',
+            decsTwo: '2000+ Successful Students',
+            decsThree: 'Earn money up to 12k during course',
             src: courseOne
         },
         {
             name: 'Hotel Management Diploma (1 Year) ',
             id: 2,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
-            decsOne: '78% Students Hired by 5 star Organisations',
+            decsOne: '1 Year',
             decsTwo: '100% Placement Support',
             decsThree: '1000+ Jobs Guaranteed',
             src: courseTwo
@@ -104,9 +104,9 @@ export default function HMCourses() {
             name: 'Hotel Management Diploma (2 Years)',
             id: 3,
             assistance: <div><span className='font-bold'>Continuous</span> Evaluation</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
+            decsOne: '2 Years',
             decsTwo: '2000+ Successful Students',
-            decsThree: 'Get Opportunities to Work in Abroad Jobs',
+            decsThree: 'Guide Different Languages like French / English ',
             src: courseThree
         },
         
@@ -118,16 +118,16 @@ export default function HMCourses() {
             name: 'BSc Hotel and Hospitality Management ',
             id: 4,
             assistance: <div><span className='font-bold'>100+</span> Hiring Partners</div>,
-            decsOne: '78% Students Hired by 5 star Organisations',
+            decsOne: '4 Years',
             decsTwo: '100% Placement Support',
-            decsThree: '2000+ Successful Students',
+            decsThree: 'Attractive Salary Packages with Fooding Facility Available',
             src: courseFour
         },
         {
             name: 'MSc Hotel and Hospitality Management ',
             id: 5,
             assistance: <div><span className='font-bold'>Latest</span> Study Materials</div>,
-            decsOne: '80% Students Hired by 5 star Organisations',
+            decsOne: '2 Years',
             decsTwo: '1000+ Jobs Guaranteed',
             decsThree: 'Get Opportunities to Work in Abroad Jobs',
             src: courseFive
@@ -240,16 +240,13 @@ export default function HMCourses() {
                                         </div>
 
                                         <div className='w-full px-3 py-4 flex flex-col gap-y-4 mt-4'>
-                                            <div className='text-[#232D63] font-bold text-sm lg:text-base'>
+                                            <div className='text-[#232D63] font-bold text-sm lg:text-base text-start'>
                                                 {course.name}
                                             </div>
                                             <div className='w-full flex flex-col gap-y-2'>
                                                 <div className='w-full flex items-center   gap-x-2 '>
                                                     <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
-                                                            <path d="M9.12526 2.30599L4.10859 5.58099C2.50026 6.63099 2.50026 8.98099 4.10859 10.031L9.12526 13.306C10.0253 13.8977 11.5085 13.8977 12.4085 13.306L17.4002 10.031C19.0002 8.98099 19.0002 6.63933 17.4002 5.58933L12.4085 2.31433C11.5085 1.71433 10.0253 1.71433 9.12526 2.30599Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            <path d="M5.44192 11.0977L5.43359 15.006C5.43359 16.0644 6.25026 17.1977 7.25026 17.531L9.90859 18.4144C10.3669 18.5644 11.1252 18.5644 11.5919 18.4144L14.2502 17.531C15.2502 17.1977 16.0669 16.0644 16.0669 15.006V11.1394" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            <path d="M18.583 12.6978V7.69775" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 33 33" fill="none"><path d="M29.485 16.4375C29.485 23.7975 23.5117 29.7708 16.1517 29.7708C8.79169 29.7708 2.81836 23.7975 2.81836 16.4375C2.81836 9.07751 8.79169 3.10417 16.1517 3.10417C23.5117 3.10417 29.485 9.07751 29.485 16.4375Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21.0982 20.6775L16.9649 18.2108C16.2449 17.7842 15.6582 16.7575 15.6582 15.9175V10.4508" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                         </svg>
                                                     </div>
                                                     <div className='text-xs text-[#121112] leading-3 text-start'>{course.decsOne}</div>
@@ -353,10 +350,7 @@ export default function HMCourses() {
                                     <div className='w-full flex flex-col gap-y-2'>
                                         <div className='w-full flex items-center gap-x-2'>
                                             <div>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
-                                                    <path d="M9.12526 2.30599L4.10859 5.58099C2.50026 6.63099 2.50026 8.98099 4.10859 10.031L9.12526 13.306C10.0253 13.8977 11.5085 13.8977 12.4085 13.306L17.4002 10.031C19.0002 8.98099 19.0002 6.63933 17.4002 5.58933L12.4085 2.31433C11.5085 1.71433 10.0253 1.71433 9.12526 2.30599Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M5.44192 11.0977L5.43359 15.006C5.43359 16.0644 6.25026 17.1977 7.25026 17.531L9.90859 18.4144C10.3669 18.5644 11.1252 18.5644 11.5919 18.4144L14.2502 17.531C15.2502 17.1977 16.0669 16.0644 16.0669 15.006V11.1394" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.583 12.6978V7.69775" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 33 33" fill="none"><path d="M29.485 16.4375C29.485 23.7975 23.5117 29.7708 16.1517 29.7708C8.79169 29.7708 2.81836 23.7975 2.81836 16.4375C2.81836 9.07751 8.79169 3.10417 16.1517 3.10417C23.5117 3.10417 29.485 9.07751 29.485 16.4375Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21.0982 20.6775L16.9649 18.2108C16.2449 17.7842 15.6582 16.7575 15.6582 15.9175V10.4508" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 </svg>
                                             </div>
                                             <div className='text-xs text-[#121112] leading-3'>{course.decsOne}</div>
@@ -426,10 +420,7 @@ export default function HMCourses() {
                                     <div className='w-full flex flex-col gap-y-2'>
                                         <div className='w-full flex items-center gap-x-2'>
                                             <div>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
-                                                    <path d="M9.12526 2.30599L4.10859 5.58099C2.50026 6.63099 2.50026 8.98099 4.10859 10.031L9.12526 13.306C10.0253 13.8977 11.5085 13.8977 12.4085 13.306L17.4002 10.031C19.0002 8.98099 19.0002 6.63933 17.4002 5.58933L12.4085 2.31433C11.5085 1.71433 10.0253 1.71433 9.12526 2.30599Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M5.44192 11.0977L5.43359 15.006C5.43359 16.0644 6.25026 17.1977 7.25026 17.531L9.90859 18.4144C10.3669 18.5644 11.1252 18.5644 11.5919 18.4144L14.2502 17.531C15.2502 17.1977 16.0669 16.0644 16.0669 15.006V11.1394" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.583 12.6978V7.69775" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 33 33" fill="none"><path d="M29.485 16.4375C29.485 23.7975 23.5117 29.7708 16.1517 29.7708C8.79169 29.7708 2.81836 23.7975 2.81836 16.4375C2.81836 9.07751 8.79169 3.10417 16.1517 3.10417C23.5117 3.10417 29.485 9.07751 29.485 16.4375Z" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21.0982 20.6775L16.9649 18.2108C16.2449 17.7842 15.6582 16.7575 15.6582 15.9175V10.4508" stroke="#00A2E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 </svg>
                                             </div>
                                             <div className='text-xs text-[#121112] leading-3'>{course.decsOne}</div>

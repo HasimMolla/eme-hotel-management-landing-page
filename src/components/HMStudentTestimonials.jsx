@@ -11,11 +11,11 @@ import 'swiper/css/zoom';
 import { Autoplay, Zoom, Navigation, Keyboard } from 'swiper/modules';
 import StarNew from '../../public/assets/images/StarNew.svg'
 import Star from '../../public/assets/images/Star.svg'
-import SUTAPASARKAR from '../../public/assets/images/SUTAPASARKAR.jpg'
+import SUTAPASARKAR from '../../public/assets/images/SUTAPASARKAR.png'
 import GrandHyattGoa from '../../public/assets/images/GrandHyattGoa.png'
-import NASIRHASSAN from '../../public/assets/images/NASIRHASSAN.jpg'
-import SOMNATHPATRA from '../../public/assets/images/SOMNATHPATRA.jpg'
-import NURULHOSEN from '../../public/assets/images/NURULHOSEN.jpg'
+import NASIRHASSAN from '../../public/assets/images/NASIRHASSAN.png'
+import SOMNATHPATRA from '../../public/assets/images/SOMNATHPATRA.png'
+import NURULHOSEN from '../../public/assets/images/NURULHOSEN.png'
 import baker from '../../public/assets/images/baker.png'
 import Image from 'next/image'
 import { ChevronLeft } from 'lucide-react';
