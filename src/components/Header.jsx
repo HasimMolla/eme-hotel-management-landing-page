@@ -145,6 +145,11 @@ export default function Header() {
                         Testimonials
                     </Link>
 
+                    <a href="https://emeacademy.co.in/blogs"
+                        className={'text-[#191919] cursor-pointer hover:text-blue-500'}>
+                        Blogs
+                    </a>
+
 
 
 
