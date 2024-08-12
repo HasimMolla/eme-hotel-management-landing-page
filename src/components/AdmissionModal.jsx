@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 import { Modal, ConfigProvider } from "antd";
 import API from "@/api";
 import Image from "next/image";
@@ -17,7 +17,7 @@ export default function AdmissionModal(_this) {
         name: "",
         email: "",
         mobile: "",
-        course: "",
+        course: _this.Courses,
         email_sender: _this.email_sender
     });
 
@@ -33,6 +33,7 @@ export default function AdmissionModal(_this) {
 
     const handleAdmissionDataSubmit = (event) => {
         event.preventDefault();
+
         if (
             admissiondata.name === "" ||
             admissiondata.email === "" ||
@@ -78,6 +79,7 @@ export default function AdmissionModal(_this) {
     };
     return (
         <>
+         
             <ConfigProvider
                 theme={{
                     components: {
@@ -154,34 +156,31 @@ export default function AdmissionModal(_this) {
                                                 }}
                                                 className="rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
                                             />
-
-                                            <select
-                                                className="hidden rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] text-[14px] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
-                                                placeholder="Select Courses"
-                                                value={admissiondata.course}
-                                                onChange={(e) => {
+                                            {/* 
+                                                <select
+                                                    className="hidden rounded-[4px] h-10 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] text-[14px] outline outline-1 outline-[#b5b5b5]   px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#000] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
+                                                    placeholder="Select Courses"
+                                                    value={admissiondata.course}
+                                                    onChange={(e) => {
                                                     setAdmissionData((prev) => ({
                                                         ...prev,
                                                         course: e.target.value,
                                                     }));
-                                                }}>
-                                                <option
+                                                    }}>
+                                                    <option
                                                     value=""
                                                     selected
                                                     disabled
 
-                                                >
+                                                    >
                                                     Select Program
-                                                </option>
-                                                {_this?.Courses && _this?.Courses.map((course, index) => (
+                                                    </option>
+                                                    {_this?.Courses && _this?.Courses.map((course, index) => (
                                                     <option key={index} value={course}>{course}</option>
-                                                ))}
-                                                {/* {course.map(course => (
-                        <option key={course.label} value={course.value}>{course.value}</option>
-                      ))} */}
-                                            </select>
-
-
+                                                    ))}
+                                                    
+                                                </select> 
+                                                */}
                                             <button
                                                 type="submit"
                                                 className="w-full text-[#fff] text-[15px] font-[700] bg-[#00A2E7] hover:bg-[#00A2E7]/90 transition-colors rounded-md border border-[#FFCD1F] px-[40px] py-2"

@@ -23,7 +23,7 @@ import AdmissionModal from './AdmissionModal';
 
 export default function HMCourses() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const Courses = CourseData?.HotelManagement
+    const Courses = "Hotel Management Course"
     const email_sender = "HOTEL_MANAGEMENT"
     const _this = {
         isModalOpen,

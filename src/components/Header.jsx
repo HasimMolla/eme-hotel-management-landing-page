@@ -10,7 +10,7 @@ import CourseData from '@/data/course.json'
 
 export default function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const Courses = CourseData?.HotelManagement
+    const Courses = "Hotel Management Course"
     const email_sender = "HOTEL_MANAGEMENT"
     const _this = {
         isModalOpen,

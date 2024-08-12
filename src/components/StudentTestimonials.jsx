@@ -11,7 +11,7 @@ import Image from 'next/image'
 import SUTAPASARKAR from '../../public/assets/images/SUTAPASARKAR.png'
 import NASIRHASSAN from '../../public/assets/images/NASIRHASSAN.png'
 import SOMNATHPATRA from '../../public/assets/images/SOMNATHPATRA.png'
-import NURULHOSEN from '../../public/assets/images/NURULHOSEN.png'
+import SUNANDASARKAR from '../../public/assets/images/SUNANDASARKAR.png'
 import RABIUSSAINI from '../../public/assets/images/RABIUSSAINI.png'
 import { ChevronLeft } from 'lucide-react';
 import { ChevronRight } from 'lucide-react';
@@ -38,14 +38,14 @@ export const StudentTetimonials = () => {
         },
         {
             id: 4,
-            Name: 'Nurul Hosen',
+            Name: 'SUNANDA SARKAR',
             decs: "“Thanks to EME Academy, I'm confident and prepared for the challenges of the hotel industry.”",
-            src: NURULHOSEN
+            src: SUNANDASARKAR
         },
         {
             id: 5,
             Name: 'Somnath Patra',
-            decs: "“EME Academy's hotel management course opened doors for me.Now, I'm successfully building my hospitality career.”",
+            decs: "“EME Academy's course opened doors, and now I'm thriving in my hospitality career.”",
             src: SOMNATHPATRA
         },
         
