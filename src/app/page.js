@@ -25,6 +25,12 @@ import CTAButton from "@/components/CTAButton";
 
 
 export default function Home() {
+  const Courses = "Hotel Management Course";
+  const email_sender = "HOTEL_MANAGEMENT";
+  const _this = {
+    Courses,
+    email_sender,
+  };
   return (
     <main className="flex flex-col justify-start items-center w-full min-h-screen bg-[#CAE5FF]">
       <Header />
@@ -40,7 +46,6 @@ export default function Home() {
         <StudentWorkingCountry />
       </div>
       <div className="w-full  md:hidden bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100% flex flex-col gap-y-5  px-5 py-2 lg:py-5">
-
         <div className="  w-full  flex  flex-col justify-center items-center gap-y-2 lg:gap-y-3">
           <div className="w-full  flex items-center justify-center gap-x-2">
             <div>
@@ -59,7 +64,7 @@ export default function Home() {
 
           <div className="w-full flex items-center justify-center gap-x-5">
             <div>
-              <svg 
+              <svg
                 className="w-[80px] lg:w-[100px]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="100"
@@ -993,12 +998,18 @@ export default function Home() {
               />
             </div>
             <div>
-              <Image className="w-[60px] lg:w-[70px]" width={70} height={70} src={iso} alt="iso" />
+              <Image
+                className="w-[60px] lg:w-[70px]"
+                width={70}
+                height={70}
+                src={iso}
+                alt="iso"
+              />
             </div>
           </div>
         </div>
         <div className="w-full flex justify-center ">
-          <AdmissionForm />
+          <AdmissionForm {..._this} />
         </div>
       </div>
       <div className="w-full bg-gradient-to-r from-[#CAE5FF] from-20% to-[#FFF] to-100%">
@@ -1072,7 +1083,9 @@ export default function Home() {
             </div>
             <HMStudentTestimonials />
           </div>
-          <div><CTAButton/></div>
+          <div>
+            <CTAButton />
+          </div>
         </div>
       </div>
       <div className="w-full bg-gradient-to-r from-[#fff] from-0% to-white to-100%">

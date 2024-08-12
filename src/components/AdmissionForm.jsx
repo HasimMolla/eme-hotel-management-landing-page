@@ -23,7 +23,7 @@ export default function AdmissionForm(_this) {
         name: "",
         email: "",
         mobile: "",
-        course: "",
+        course: _this.Courses,
         email_sender: _this.email_sender
     });
 
@@ -131,7 +131,7 @@ export default function AdmissionForm(_this) {
                             className="rounded-[4px] h-9 shadow-[0px_1px_2px_0px_rgba(10,10,10,0.10)] text-[#000] outline outline-1 outline-[#CED4DA]    px-2 py-[6px] w-full     bg-[#fff] placeholder:text-[#666] placeholder:text-[12px] lg:placeholder:text-[14px] placeholder:font-[400]  focus:outline-none focus:placeholder:text-blue-500  focus:ring-1 focus:ring-blue-500  transition-colors"
                         />
 
-                        <div className="w-full hidden">
+                        {/* <div className="w-full hidden">
                             <Select
                                 value={admissiondata.course}
                                 onValueChange={(value) => {
@@ -155,7 +155,7 @@ export default function AdmissionForm(_this) {
 
                                 </SelectContent>
                             </Select>
-                       </div>
+                       </div> */}
 
 
 

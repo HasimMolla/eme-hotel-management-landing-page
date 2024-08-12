@@ -6,7 +6,7 @@ import Image from 'next/image'
 import AdmissionForm from './AdmissionForm'
 import CourseData from '@/data/course.json'
 function Hero() {
-  const Courses = CourseData?.HotelManagement
+  const Courses = "Hotel Management Course"
   const email_sender = "HOTEL_MANAGEMENT"
   const _this = {
     Courses,
