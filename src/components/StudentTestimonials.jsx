@@ -21,26 +21,31 @@ export const StudentTetimonials = () => {
         {
             id: 1,
             Name: 'Sutapa Sarkar',
+            decs: '“EME Academy helped me become a Hotel Receptionist at Grand Hyatt Goa, fulfilling their job support promise.”',
             src: SUTAPASARKAR
         },
         {
             id: 2,
             Name: 'Nasir Hassan',
+            decs: '“The hands-on experience at EME Academy was invaluable. I’m now excelling in my hotel management role.”',
             src: NASIRHASSAN
         },
         {
             id: 3,
             Name: 'Rabius Saini',
+            decs: '“EME Academy’s course gave me the tools and support to succeed in the competitive hospitality industry.”',
             src: RABIUSSAINI
         },
         {
             id: 4,
             Name: 'Nurul Hosen',
+            decs: "“Thanks to EME Academy, I'm confident and prepared for the challenges of the hotel industry.”",
             src: NURULHOSEN
         },
         {
             id: 5,
             Name: 'Somnath Patra',
+            decs: "“EME Academy's hotel management course opened doors for me.Now, I'm successfully building my hospitality career.”",
             src: SOMNATHPATRA
         },
         
@@ -130,15 +135,15 @@ export const StudentTetimonials = () => {
                                         height={500}
                                         src={data?.src}
                                         alt="student Img" />
-                                    <div className='absolute bottom-5 lg:bottom-[30px] left-2 lg:left-[20px] flex flex-col gap-[5px] lg:gap-[10px] text-[14px] lg:text-[20px] text-start font-[400] text-[#fff] z-[21]'>
+                                    <div className='absolute bottom-3 lg:bottom-4  pr-2 left-2 flex flex-col gap-[5px] lg:gap-[10px] text-sm lg:text-lg text-start font-normal text-[#fff] z-[21]'>
                                         <div>
                                             {data?.Name}
                                         </div>
                                         <div className='h-[1px] lg:h-[2px] bg-white'>
 
                                         </div>
-                                        <div>
-                                            “Thanks to EME Academy”
+                                        <div className='text-xs lg:text-sm'>
+                                            {data.decs}
                                         </div>
                                     </div>
 

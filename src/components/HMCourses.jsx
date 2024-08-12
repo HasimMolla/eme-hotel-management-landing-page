@@ -14,7 +14,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/zoom';
-import { Zoom, Navigation, Keyboard } from 'swiper/modules';
+import { Autoplay, Zoom, Navigation, Keyboard } from 'swiper/modules';
 import Image from 'next/image';
 import CourseData from '@/data/course.json'
 import { ChevronLeft } from 'lucide-react';
@@ -211,6 +211,10 @@ export default function HMCourses() {
                         keyboard={{
                             enabled: true,
                         }}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
+                        }}
                         zoom={true}
                         loop={true}
                         grabCursor={true}
@@ -218,7 +222,7 @@ export default function HMCourses() {
                             nextEl: '.swiper-button-next-custom-course',
                             prevEl: '.swiper-button-prev-custom-course',
                         }}
-                        modules={[Zoom, Navigation, Keyboard]}
+                        modules={[Autoplay, Zoom, Navigation, Keyboard]}
                         className="mySwiper w-full  flex  items-center justify-center   mx-auto"
                     >
                         {
