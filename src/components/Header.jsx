@@ -145,7 +145,7 @@ export default function Header() {
                         Testimonials
                     </Link>
 
-                    <a href="https://emeacademy.co.in/blogs"
+                    <a href="https://emeacademy.co.in/blogs/hotel-management-course-prestigious-path-to-success-in-hospitality"
                         className={'text-[#191919] cursor-pointer hover:text-blue-500'}>
                         Blogs
                     </a>
