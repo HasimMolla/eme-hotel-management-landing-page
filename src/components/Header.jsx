@@ -5,19 +5,20 @@ import Image from "next/image";
 import MainLogo from "../../public/assets/images/emeLogo.png"
 import rightArrow from "../../public/assets/images/rightArrow.svg"
 import AdmissionModal from './AdmissionModal';
-import CourseData from '@/data/course.json'
+
+
 
 
 export default function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const Courses = "Hotel Management Course"
-    const email_sender = "HOTEL_MANAGEMENT"
-    const _this = {
-        isModalOpen,
-        setIsModalOpen,
-        Courses,
-        email_sender,
-    };
+    // const Courses = "Hotel Management Course"
+    // const email_sender = "HOTEL_MANAGEMENT"
+    // const _this = {
+    //     isModalOpen,
+    //     setIsModalOpen,
+    //     Courses,
+    //     email_sender,
+    // };
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -46,7 +47,7 @@ export default function Header() {
 
     return (
         <div className={color ? 'fixed top-0   transition-all backdrop-blur-md w-full z-[99] bg-black/5 drop-shadow-2xl  py-1  lg:py-2  animate-fade-in-down ' : 'fixed top-0  w-full z-[99]  bg-gradient-to-r from-[#CAE5FF] from-0% to-[#FFF] to-100% transition-all  py-1  lg:py-2 2xl:py-2 '}>
-            <AdmissionModal {..._this} />
+            {/* <AdmissionModal {..._this} /> */}
             <div
                 className='   flex items-center justify-between max-w-[1380px] mx-auto px-[20px] lg:px-24 '>
                 <div className=" flex flex-col justify-center items-center  cursor-pointer">
@@ -147,31 +148,39 @@ export default function Header() {
 
 
 
-                    <button className="lg:hidden text-[#002C6D] text-[14px] rounded-md bg-[#F0F0F0]  px-[24px] py-[12px] flex justify-center items-center gap-2 group" onClick={() => { setIsModalOpen(true) }}>
-                        <div>
-                            Prospectus
-                        </div>
-                        <Image
-                            className=" w-[10px] lg:w-[16px] lg:h-[16px]  group-hover:translate-x-1 transition-all"
-                            width={500}
-                            height={500}
-                            src={rightArrow}
-                            alt="EME Logo" />
+                    <a href="/assets/docs/HotelManagementSyllabus.pdf "
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <button className="lg:hidden text-[#002C6D] text-[14px] rounded-md bg-[#F0F0F0]  px-[24px] py-[12px] flex justify-center items-center gap-2 group">
+                            <div>
+                                Prospectus
+                            </div>
+                            <Image
+                                className=" w-[10px] lg:w-[16px] lg:h-[16px]  group-hover:translate-x-1 transition-all"
+                                width={500}
+                                height={500}
+                                src={rightArrow}
+                                alt="EME Logo" />
 
-                    </button>
+                        </button>
+                    </a>
 
                 </div>
                 <div className="hidden lg:block" >
 
-                    <button className=" flex text-[#002C6D]  text-[14px] rounded-md bg-[#F0F0F0] hover:bg-[#fff]/90 px-[24px] py-[12px]  justify-center items-center gap-2 font-[600] group" onClick={() => { setIsModalOpen(true) }}>
-                        <div>
-                            Prospectus
-                        </div>
-                        <svg className="group-hover:translate-x-1 transition-all" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.4345 8.1L7.7169 2.3832L8.2833 1.8168L14.9657 8.5L8.2833 15.1832L7.7169 14.6176L13.4345 8.9H1.6001V8.1H13.4345Z" fill="#002C6D" />
-                        </svg>
+                    <a href="/assets/docs/HotelManagementSyllabus.pdf "
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <button className=" flex text-[#002C6D]  text-[14px] rounded-md bg-[#F0F0F0] hover:bg-[#fff]/90 px-[24px] py-[12px]  justify-center items-center gap-2 font-[600] group" >
+                            <div>
+                                Prospectus
+                            </div>
+                            <svg className="group-hover:translate-x-1 transition-all" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.4345 8.1L7.7169 2.3832L8.2833 1.8168L14.9657 8.5L8.2833 15.1832L7.7169 14.6176L13.4345 8.9H1.6001V8.1H13.4345Z" fill="#002C6D" />
+                            </svg>
 
-                    </button>
+                        </button>
+                    </a>
                 </div>
             </div>
 
