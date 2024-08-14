@@ -27,8 +27,8 @@ function StudentWorkingCountry() {
                 Global Student <span className="text-[#FF9A3A]">Presence</span>  :
             </div>
             <Marquee autoFill>
-                <div className="hidden lg:inline-block text-nowrap tracking-wider font-medium">
-                    USA, Italy, Malaysia, Thailand, United Arab Emirates, Saudi Arabia, Qatar, New Zealand, Canada, Maldives, Australia, United Kingdom, Singapore,  Germany, Croatia, Japan  - Try to fit these countries somewhere
+                <div className="hidden lg:inline-block text-nowrap tracking-wider font-medium mx-2">
+                    USA, Italy, Malaysia, Thailand, United Arab Emirates, Saudi Arabia, Qatar, New Zealand, Canada, Maldives, Australia, United Kingdom, Singapore,  Germany, Croatia, Japan  - Try to fit these countries somewhere  |
                 </div>
 
                 <div className="lg:hidden text-nowrap tracking-wider font-medium flex items-center gap-x-2 mx-2">
@@ -111,7 +111,7 @@ function StudentWorkingCountry() {
                     
 
                     <div>
-                        - Try to fit these countries somewhere.
+                         - Try to fit these countries somewhere.
                     </div>
                     
 

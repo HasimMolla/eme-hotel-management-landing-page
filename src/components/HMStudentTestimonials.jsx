@@ -13,9 +13,11 @@ import StarNew from '../../public/assets/images/StarNew.svg'
 import Star from '../../public/assets/images/Star.svg'
 import SUTAPASARKAR from '../../public/assets/images/SUTAPASARKAR.png'
 import GrandHyattGoa from '../../public/assets/images/GrandHyattGoa.png'
+import thepark from '../../public/assets/images/thepark.png'
 import NASIRHASSAN from '../../public/assets/images/NASIRHASSAN.png'
 import SOMNATHPATRA from '../../public/assets/images/SOMNATHPATRA.png'
 import NURULHOSEN from '../../public/assets/images/NURULHOSEN.png'
+import SUNANDASARKAR from '../../public/assets/images/SUNANDASARKAR.png'
 import baker from '../../public/assets/images/baker.png'
 import Image from 'next/image'
 import { ChevronLeft } from 'lucide-react';
@@ -160,6 +162,77 @@ export default function HMStudentTestimonials() {
                                     </div>
                                     <div>
                                         <Image src={GrandHyattGoa} width={120} height={120} alt='company image' />
+                                    </div>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide className='py-[20px] swiper-zoom-container'>
+                            <div className="w-[300px] md:max-w-[350px] h-[400px] lg:h-[420px] flex flex-col gap-[40px] items-start bg-[#F6F7F8] rounded-3xl shadow-lg px-[10px] py-[20px] cursor-grab border border-[#D0D0D0]">
+                                <div className="w-full flex justify-between">
+                                    <div className=' w-[60px] h-[60px] rounded-full overflow-hidden'>
+                                        <Image
+                                            width={500}
+                                            height={500}
+                                            className=' w-full h-full object-cover object-top'
+                                            src={SUNANDASARKAR}
+                                            alt="profile image" />
+                                    </div>
+                                    <div className='flex'>
+                                        <Image
+                                            className=" w-[20px] h-[20px] "
+                                            width={400}
+                                            height={300}
+                                            src={StarNew}
+                                            alt="" />
+                                        <Image
+                                            className=" w-[20px] h-[20px] "
+                                            width={400}
+                                            height={300}
+                                            src={StarNew}
+                                            alt="" />
+                                        <Image
+                                            className=" w-[20px] h-[20px] "
+                                            width={400}
+                                            height={300}
+                                            src={StarNew}
+                                            alt="" />
+                                        <Image
+                                            className=" w-[20px] h-[20px] "
+                                            width={400}
+                                            height={300}
+                                            src={StarNew}
+                                            alt="" />
+                                        <Image
+                                            className=" w-[20px] h-[20px] "
+                                            width={400}
+                                            height={300}
+                                            src={Star}
+                                            alt="" />
+                                    </div>
+
+                                </div>
+                                <div className='flex flex-col h-[150px] lg:h-[200px]  items-start'>
+                                    <div className='text-[#0057E2] leading-8 text-6xl lg:leading-10 lg:text-[75px]  font-[400] '>“</div>
+                                    <div className='text-[#191919] text-sm lg:text-[15px]  font-[400] leading-5 text-start'>
+                                        Many thanks to EME Academy. Best college for hotel management. I got the same support as they said they would help me to get a job when I was admitted. Now I am currently working in the GRAND HYATT GOA AS A Hotel Receptionist.
+                                    </div>
+                                </div>
+                                <div className='w-full flex items-center justify-between pt-2'>
+                                    <div className=' flex gap-[10px] justify-start'>
+                                        <div className='w-[2px] h-[45px] bg-[#0f0f0f33]'></div>
+                                        <div>
+                                            <div className='text-[#000] text-[15px]  lg:text-[17px] text-start font-[400] leading-6 '>
+                                                Sunanda Sarkar
+                                            </div>
+                                            <div className='text-[#191919] text-start text-[12px]  font-[400] leading-5'>
+                                                Bartender
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <Image src={thepark} width={80} height={80} alt='company image' />
                                     </div>
                                 </div>
                             </div>
