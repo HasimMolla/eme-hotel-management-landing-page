@@ -4,11 +4,10 @@ import { MdArrowBackIosNew } from "react-icons/md";
 import hotelmanagement from "../../../public/assets/images/blogImage.jpg";
 
 export default function BlogPage() {
-  // console.log(params);
 
   return (
     <div className="min-h-screen w-full flex justify-center items-start  bg-white text-black py-10">
-      {/* The blog is {params.slug} */}
+
       <div className="w-full md:w-[70%] h-full mx-auto  flex flex-col px-5 md:px-0 gap-5">
         <Link
           href="/"

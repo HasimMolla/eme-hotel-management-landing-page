@@ -37,6 +37,14 @@ export default function AdmissionForm(_this) {
         return phoneRegex.test(phone);
     }
 
+    // *************** Download brochure funcation ***********************
+    const downloadBrochure = () => {
+        const link = document.createElement("a");
+        link.href = "/assets/docs/hotel-management-brochure.pdf"; 
+        link.download = "hotel-management-brochure.pdf"; 
+        link.click();
+    };
+
     const handleAdmissionDataSubmit = (event) => {
         event.preventDefault();
         if (
@@ -63,6 +71,7 @@ export default function AdmissionForm(_this) {
                 if (response) {
                     console.log(response);
                     setAdmissionResult(true);
+                    downloadBrochure();
                     router.push('/thank-you');
                 } else if (!response) {
                     console.log(response);
